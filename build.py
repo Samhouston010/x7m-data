@@ -5,6 +5,7 @@ import json, re, os, urllib.request, zipfile, io
 PERSIANA_M3U = "https://raw.githubusercontent.com/Samhouston010/persiana-tv-epg/main/final.m3u"
 IDANPLUS_ZIP = "https://raw.githubusercontent.com/fishenzon/repo/master/zips/plugin.video.idanplus/plugin.video.idanplus-3.9.9.zip"
 KESHET_BASE = "https://mako-streaming.akamaized.net"
+SAMTV_KESHET_PROXY = "http://localhost:8080/api/keshet"
 
 EPG_URLS = ",".join([
     "https://raw.githubusercontent.com/Samhouston010/persiana-tv-epg/main/all.xml.gz",
@@ -35,7 +36,7 @@ def get_israel():
         if not link:
             continue
         if link.startswith("/direct/") or link.startswith("/stream/"):
-            link = KESHET_BASE + link
+            link = SAMTV_KESHET_PROXY + link
         if not link.startswith("http"):
             continue
 

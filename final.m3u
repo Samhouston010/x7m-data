@@ -387,13 +387,13 @@ https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/kan11/live.livx
 #EXTINF:-1 tvg-id="il_11" tvg-logo="kan.jpg" group-title="Israel TV",כאן 11 - לקויי שמיעה
 https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/kan11_subs/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="il_12" tvg-logo="keshet.jpg" group-title="Israel TV",קשת 12
-https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12/index.m3u8?as=1
+http://localhost:8080/api/keshet/direct/hls/live/2033791/k12/index.m3u8?as=1
 #EXTINF:-1 tvg-id="il_12" tvg-logo="keshet.jpg" group-title="Israel TV",קשת 12 - גיבוי
-https://mako-streaming.akamaized.net/stream/hls/live/2033791/k12n12wad/index.m3u8?b-in-range=0-700
+http://localhost:8080/api/keshet/stream/hls/live/2033791/k12n12wad/index.m3u8?b-in-range=0-700
 #EXTINF:-1 tvg-id="il_12" tvg-logo="keshet.jpg" group-title="Israel TV",קשת 12 - גיבוי 2
-https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12dvr/index.m3u8?b-in-range=800-2700
+http://localhost:8080/api/keshet/direct/hls/live/2033791/k12dvr/index.m3u8?b-in-range=800-2700
 #EXTINF:-1 tvg-id="il_12" tvg-logo="keshet.jpg" group-title="Israel TV",קשת 12 - לקויי שמיעה
-https://mako-streaming.akamaized.net/direct/hls/live/2035325/k12cc/index.m3u8?as=1
+http://localhost:8080/api/keshet/direct/hls/live/2035325/k12cc/index.m3u8?as=1
 #EXTINF:-1 tvg-id="il_13" tvg-logo="13.jpg" group-title="Israel TV",רשת 13
 https://dsk76kvc9kie6.cloudfront.net/media/87f59c77-03f6-4bad-a648-897e095e7360/mainManifest.m3u8
 #EXTINF:-1 tvg-id="il_13" tvg-logo="13.jpg" group-title="Israel TV",רשת 13 - גיבוי
@@ -415,7 +415,7 @@ https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/kan_edu/live.livx/play
 #EXTINF:-1 tvg-id="il_23" tvg-logo="23tv.jpg" group-title="Israel TV",כאן חינוכית 23 - גיבוי
 https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/kan_edu/live.livx
 #EXTINF:-1 tvg-id="il_24" tvg-logo="24telad.png" group-title="Israel TV",ערוץ 24 החדש
-https://mako-streaming.akamaized.net/direct/hls/live/2035340/ch24live/index.m3u8?as=1
+http://localhost:8080/api/keshet/direct/hls/live/2035340/ch24live/index.m3u8?as=1
 #EXTINF:-1 tvg-id="il_" tvg-logo="bb.jpg" group-title="Israel TV",האח הגדול 26
 https://d3snfszc9pg25z.cloudfront.net/media/e1739115-9182-4adc-8d19-8eb7fb6fdd3a/playlist_3.m3u8?_uid=2dfa21af-47dd-4772-9917-934f3ce7feea&rK=a8&_did=a4f82cc9-f24e-0789-2ffd-66f900f0b94b
 #EXTINF:-1 tvg-id="il_" tvg-logo="bb.jpg" group-title="Israel TV",האח הגדול 26 - גיבוי
