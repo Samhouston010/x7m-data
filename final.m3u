@@ -403,6 +403,178 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-mood/78367bf48ccdba501d0d
 #EXTINF:-1 tvg-id="MBCFM.ae" tvg-logo="" group-title="MBC",MBC FM
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-fm/3f36f7db6086acf058dc51681c87f8ad/index.m3u8
 
+## --- Premium HD ---
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Travel HD",4K Travel TV (1080p)
+https://streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8
+#EXTINF:-1 tvg-id="alphaCinema.ru@HD" tvg-logo="https://i.imgur.com/146OgfU.png" group-title="Movies HD",alpha Cinema (1080p)
+https://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
+#EXTINF:-1 tvg-id="AS3SportTV.ve@SD" tvg-logo="https://i.ibb.co/bRmGbsyV/A3-SPORTTV.jpg" group-title="Sports HD",AS3 Sport TV (1080p)
+https://streamtv.as3sport.online:3394/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="BBCDrama.uk@Spain" tvg-logo="https://i.imgur.com/HctHhLL.png" group-title="BBC HD",BBC Drama (1080p)
+https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BBC HD",BBC Drama Italy (1080p)
+https://amg00793-amg00793c41-rakuten-it-5445.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCEarth.uk@US" tvg-logo="https://i.imgur.com/nGSsUd4.png" group-title="BBC HD",BBC Earth (1080p)
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCFood.us@SD" tvg-logo="https://i.imgur.com/kcmHcSx.png" group-title="BBC HD",BBC Food (1080p)
+https://d1e9r0b71zfwk7.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCHomeGarden.us@SD" tvg-logo="https://i.imgur.com/rC0pi1D.png" group-title="BBC HD",BBC Home & Garden (1080p)
+https://d11r33s5i066xh.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BBC HD",BBC Top Gear Finland (1080p)
+https://amg00793-amg00793c49-rakuten-fi-5848.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BBC HD",BBC Top Gear France (1080p)
+https://amg00793-amg00793c45-rakuten-fr-5539.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BBC HD",BBC Top Gear Germany (1080p)
+https://amg00793-amg00793c44-rakuten-de-5538.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BBC HD",BBC Top Gear Italy (1080p)
+https://amg00793-amg00793c43-rakuten-it-5537.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="beINSPORTSXTRAenEspanol.us@SD" tvg-logo="https://i.imgur.com/V562tpO.png" group-title="Sports HD",beIN Sports XTRA en Espanol (1080p)
+https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
+#EXTINF:-1 tvg-id="BloombergOriginals.us@US" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" group-title="News HD",Bloomberg Originals (1080p)
+https://bloomberg.com/media-manifest/streams/qt.m3u8
+#EXTINF:-1 tvg-id="CGTNDocumentary.cn@SD" tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Documentary HD",CGTN Documentary (1080p)
+https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Cowboy Movie Channel (1080p)
+https://streams2.sofast.tv/sofastplayout/32eb332e-f644-46e5-ad91-e55ad80d14f7_0_HLS/master.m3u8
+#EXTINF:-1 tvg-id="DDSports.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540" group-title="Sports HD",DD Sports SD (1080p)
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
+#EXTINF:-1 tvg-id="DreamTV.mn@SD" tvg-logo="https://i.imgur.com/YPbvzgV.png" group-title="Music HD",DreamTV (1080p)
+https://xykt-fix.github.io/play/a02j/index.m3u8
+#EXTINF:-1 tvg-id="ETVCinema.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s143026_ld_h15_aa.png?lock=720x540" group-title="Movies HD",ETV Cinema HD (1080p)
+https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264_cloud_in/index.m3u8
+#EXTINF:-1 tvg-id="FilAmTVNetwork.us@HD" tvg-logo="https://i.imgur.com/nRiApdI.png" group-title="Music HD",FilAmTV Network (1080p)
+https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",FilmGold Germany (1080p)
+https://mainstreamfilmgold-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.pl@SD" tvg-logo="https://i.imgur.com/hSDN9YQ.png" group-title="Sports HD",Fox (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/6108/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",FOX Sports (1080p)
+https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports.m3u8
+#EXTINF:-1 tvg-id="FuboSportsNetwork.us@SD" tvg-logo="https://i.imgur.com/qFNRJLb.png" group-title="Sports HD",fubo Sports Network (1080p)
+https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Genie K Movie (1080p)
+https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=US200001137&channel_id=newid_350&tp=samsung_tvplus
+#EXTINF:-1 tvg-id="Go2Travel.us@SD" tvg-logo="https://go2travel.tv/wp-content/uploads/2022/11/go2-logo.png" group-title="Travel HD",Go2Travel (1080p)
+https://go2thls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="GravitasMovies.us@SD" tvg-logo="https://i.imgur.com/H2hD4vT.png" group-title="Movies HD",Gravitas Movies (1080p)
+https://d6dg3ebeih71x.cloudfront.net/Gravitas_Movies.m3u8
+#EXTINF:-1 tvg-id="INTRAVEL.nl@Philippines" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Intravel.png" group-title="Travel HD",InTravel (1080p)
+https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="KTVSport.kw@SD" tvg-logo="https://i.imgur.com/R1hGX1d.png" group-title="Sports HD",KTV Sport (1080p)
+https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Leaderboard Sports News (1080p)
+https://amg02703-amg02703c20-samsung-au-9093.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Lifetime Movies (1080p)
+https://amg00276-amg00276c21-samsung-gb-5270.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Lifetime Movies Love & Drama (1080p)
+https://d1s7megtamek6r.cloudfront.net/Lifetime_Love_and_Drama.m3u8
+#EXTINF:-1 tvg-id="MBCFM.ae@SD" tvg-logo="https://i.imgur.com/lF8UxvR.png" group-title="Premium HD",MBC FM (1080p)
+https://dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/index.m3u8
+#EXTINF:-1 tvg-id="HLAQDTV.kr@SD" tvg-logo="https://i.imgur.com/FGsKCH3.png" group-title="Premium HD",MBC Gangwon (MBC 강원영동) (1080p) [Not 24/7]
+http://123.254.93.7:1935/tvlive/livestream2/playlist.m3u8
+#EXTINF:-1 tvg-id="MMTV.mv@SD" tvg-logo="https://i.imgur.com/21tpl5b.png" group-title="Music HD",MMTV (1080p)
+https://sendlive.online/hls/mmtv.m3u8
+#EXTINF:-1 tvg-id="MNBSport.mn@SD" tvg-logo="https://i.imgur.com/z854PC3.png" group-title="Sports HD",MNB Sport (1080p)
+https://live.mnb.mn/hls/mnb_sport.stream.m3u8
+#EXTINF:-1 tvg-id="MoreThanSportsTV.de@SD" tvg-logo="https://i.imgur.com/SLrjImc.png" group-title="Sports HD",More Than Sports TV (1080p)
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+#EXTINF:-1 tvg-id="MoviesAction.sa@SD" tvg-logo="https://i.imgur.com/NIVhISa.png" group-title="Movies HD",Movies Action (1080p)
+https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8
+#EXTINF:-1 tvg-id="MoviesThriller.sa@SD" tvg-logo="https://i.imgur.com/JWihdcl.png" group-title="Movies HD",Movies Thriller (1080p)
+https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8
+#EXTINF:-1 tvg-id="MovieSphere.us@US" tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="Movies HD",MovieSphere (1080p)
+https://amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MovieSphere.us@UK" tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="Movies HD",MovieSphere UK (1080p)
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MTV.pl@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" group-title="Music HD",MTV (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7294/index.m3u8
+#EXTINF:-1 tvg-id="MTVBiggestPop.us@Brazil" tvg-logo="https://i.imgur.com/AOaZmlS.png" group-title="Music HD",MTV Biggest Pop (1080p)
+https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8
+#EXTINF:-1 tvg-id="MTVBiggestPop.us@US" tvg-logo="https://i.imgur.com/AOaZmlS.png" group-title="Music HD",MTV Biggest Pop (1080p)
+https://jmp2.uk/plu-65410176770cf1000866bf31.m3u8
+#EXTINF:-1 tvg-id="MTVSpankinNew.us@US" tvg-logo="https://i.imgur.com/thbvJd1.png" group-title="Music HD",MTV Spankin’ New (1080p)
+https://jmp2.uk/plu-6541010f770cf1000866be98.m3u8
+#EXTINF:-1 tvg-id="MyTimeMovieNetwork.uk@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies HD",MyTime Movie Network (1080p)
+https://appletree-mytimeuk-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MyTimeMovieNetworkEast.us@SD" tvg-logo="https://i.imgur.com/HYgxPVQ.png" group-title="Movies HD",MyTime Movie Network (1080p)
+https://appletree-mytimeau-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",MyTime Movie Network France (1080p)
+https://mytimemoviefrance-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",MyTime Movie Network Germany (1080p)
+https://appletree-mytimemoviegerman-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MyTimeMovieNetwork.es@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies HD",MyTime movie network Spain (1080p)
+https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Mytime Movies (1080p)
+https://mytimefrance-rakuten-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCSportsNOW.us@SD" tvg-logo="https://i.imgur.com/EzNf2Yx.png" group-title="Sports HD",NBC Sports NOW (1080p)
+https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",NEW KMOVIES (1080p)
+https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=USAJ30000122O&channel_id=newid_342&tp=samsung_tvplus
+#EXTINF:-1 tvg-id="NEWKMOVIES.us@SD" tvg-logo="https://i.imgur.com/wCgirjc.png" group-title="Movies HD",NEW KMOVIES (1080p)
+https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB1700007PK&channel_id=newid_343&tp=samsung_tvplus
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",OUTflix Movies (1080p)
+https://dg37ei3o66x3s.cloudfront.net/OutTV_US.m3u8
+#EXTINF:-1 tvg-id="PBSTravel.us@SD" tvg-logo="https://i.imgur.com/A6GXhta.png" group-title="Travel HD",PBS Travel (1080p)
+https://d3hqevbyoxtkoi.cloudfront.net/PBS_Travel.m3u8
+#EXTINF:-1 tvg-id="PolsatFilm.pl@SD" tvg-logo="https://i.imgur.com/wGH6shZ.png" group-title="Movies HD",Polsat Film (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/6086/index.m3u8
+#EXTINF:-1 tvg-id="PolsatSport1.pl@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Polsat_Sport_1_2024.svg/500px-Polsat_Sport_1_2024.svg.png" group-title="Sports HD",Polsat Sport 1 (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7296/index.m3u8
+#EXTINF:-1 tvg-id="PolsatSport2.pl@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Polsat_Sport_2_2024.svg/500px-Polsat_Sport_2_2024.svg.png" group-title="Sports HD",Polsat Sport 2 (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7310/index.m3u8
+#EXTINF:-1 tvg-id="PolsatSport3.pl@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Polsat_Sport_3_2024.svg/500px-Polsat_Sport_3_2024.svg.png" group-title="Sports HD",Polsat Sport 3 (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7303/index.m3u8
+#EXTINF:-1 tvg-id="PolsatSportFight.pl@SD" tvg-logo="https://i.imgur.com/8x1FV3o.png" group-title="Sports HD",Polsat Sport Fight (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7311/index.m3u8
+#EXTINF:-1 tvg-id="PolsatSportPremium1.pl@SD" tvg-logo="https://i.imgur.com/hy1SKE0.png" group-title="Sports HD",Polsat Sport Premium 1 (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7304/index.m3u8
+#EXTINF:-1 tvg-id="PolsatSportPremium2.pl@SD" tvg-logo="https://i.imgur.com/myyWeXY.png" group-title="Sports HD",Polsat Sport Premium 2 (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7305/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Rakuten TV Asian Cinema Italy (1080p)
+https://asian-cinema-rakuten-tv-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6431/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Rakuten TV Romance Movies Finland (1080p)
+https://romance-rakuten-tv-fi.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6744/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Rakuten TV Romance Movies Germany (1080p)
+https://romance-rakuten-tv-de.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6475/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Roku Sports Channel (1080p)
+https://d3ialx0k0mla2a.cloudfront.net/Roku_Sports_Channel.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Shooting Sports Life (1080p)
+https://linear-1312.frequency.stream/dist/stirr/1312/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Speed Sport 1 (1080p)
+https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="SportKlub.pl@SD" tvg-logo="https://i.imgur.com/DpJUrlr.png" group-title="Sports HD",Sport Klub (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/2521/index.m3u8
+#EXTINF:-1 tvg-id="Sportitalia.it@SD" tvg-logo="https://i.imgur.com/0CJGGgd.png" group-title="Sports HD",Sportitalia (1080p)
+https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Sports First (1080p)
+https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8
+#EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" tvg-logo="https://i.imgur.com/kHerF19.png" group-title="Sports HD",Star Sports 2 Hindi HD (1080p)
+http://103.157.248.140:8000/play/a01m/index.m3u8
+#EXTINF:-1 tvg-id="SUMtvEnglish.us@SD" tvg-logo="https://i.imgur.com/hp1rJjX.png" group-title="Music HD",SUMtv English (1080p)
+https://bozztv.com/uni10rtmp/ssstv1-cdn/smil:ssstv1web.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SUMtvLatino.us@SD" tvg-logo="https://i.imgur.com/ZObFN8Z.png" group-title="Music HD",SUMtv Latino (1080p)
+https://bozztv.com/uni10rtmp/ssstv2-cdn/smil:ssstv2web.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TastemadeTravel.us@SD" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Travel HD",Tastemade Travel (1080p)
+https://d6ef3usc6d9cl.cloudfront.net/Tastemade_Travel.m3u8
+#EXTINF:-1 tvg-id="TopMoviesPolska.pl@SD" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" group-title="Movies HD",Top Movies Polska (1080p)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
+#EXTINF:-1 tvg-id="TraceSportStars.fr@HD" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="Sports HD",Trace Sport Stars (Australia) (1080p)
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Unbeaten.us@SD" tvg-logo="https://i.imgur.com/LmkNt3v.png" group-title="Sports HD",Unbeaten Sports Channel (1080p)
+https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8
+#EXTINF:-1 tvg-id="WillowSports.us@HD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" group-title="Sports HD",Willow Sports (1080p)
+https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8
+#EXTINF:-1 tvg-id="WillowSports.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" group-title="Sports HD",Willow Sports (1080p)
+https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
+#EXTINF:-1 tvg-id="WomensSportsNetwork.us@SD" tvg-logo="https://i.imgur.com/rhIwUcQ.png" group-title="Sports HD",Women's Sports Network (1080p)
+https://d39accvx65hq9o.cloudfront.net/Womens_Sports_Network.m3u8
+#EXTINF:-1 tvg-id="WorldofFreesports.de@SD" tvg-logo="https://i.imgur.com/lta5Mog.png" group-title="Sports HD",World of Freesports (1080p)
+https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Yahoo! Sports Network (1080p)
+https://d7vulbd7rxo7j.cloudfront.net/Yahoo_Sports_Network.m3u8
+#EXTINF:-1 tvg-id="YoMTV.us@SD" tvg-logo="https://i.imgur.com/hzNXDdY.png" group-title="Music HD",Yo! MTV (1080p)
+https://jmp2.uk/plu-654102ed770cf1000866c307.m3u8
+
 ## --- Israel ---
 #EXTINF:-1 tvg-id="il_11" tvg-logo="kan.jpg" group-title="Israel TV",כאן 11
 https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8

@@ -26,6 +26,8 @@ MBC_CHANNELS = [
     {"name": "MBC FM", "id": "MBCFM.ae", "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-fm/3f36f7db6086acf058dc51681c87f8ad/index.m3u8"},
 ]
 
+PREMIUM_JSON = os.path.join(os.path.dirname(__file__), "premium_channels.json")
+
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     return urllib.request.urlopen(req, timeout=30).read()
@@ -78,6 +80,38 @@ def main():
     m_count = len(MBC_CHANNELS)
     print(f"  {m_count} channels")
 
+    print("Adding Premium HD channels...")
+    prem_lines = []
+    if os.path.isfile(PREMIUM_JSON):
+        with open(PREMIUM_JSON, "r", encoding="utf-8") as f:
+            prem = json.load(f)
+        for ch in prem:
+            logo = ch.get("logo", "")
+            tid = ch.get("tvg_id", "")
+            name = ch.get("name", "")
+            lo = name.lower()
+            if "sport" in lo or "fox" in lo or "bein" in lo:
+                grp = "Sports HD"
+            elif "movie" in lo or "film" in lo or "cinema" in lo:
+                grp = "Movies HD"
+            elif "bbc" in lo:
+                grp = "BBC HD"
+            elif "mtv" in lo or "music" in lo:
+                grp = "Music HD"
+            elif "travel" in lo:
+                grp = "Travel HD"
+            elif "bloomberg" in lo or "news" in lo or "cnn" in lo:
+                grp = "News HD"
+            elif "document" in lo or "discovery" in lo or "nature" in lo:
+                grp = "Documentary HD"
+            else:
+                grp = "Premium HD"
+            prem_lines.append(f'#EXTINF:-1 tvg-id="{tid}" tvg-logo="{logo}" group-title="{grp}",{name}')
+            prem_lines.append(ch["url"])
+    premium = "\n".join(prem_lines)
+    pr_count = len(prem_lines) // 2
+    print(f"  {pr_count} channels")
+
     print("Fetching Israel channels from idanplus...")
     israel = get_israel()
     i_count = israel.count("#EXTINF")
@@ -90,6 +124,8 @@ def main():
     m3u += persiana + "\n\n"
     m3u += "## --- MBC ---\n"
     m3u += mbc + "\n\n"
+    m3u += "## --- Premium HD ---\n"
+    m3u += premium + "\n\n"
     m3u += "## --- Israel ---\n"
     m3u += israel + "\n"
 
@@ -97,7 +133,7 @@ def main():
     with open(out, "w", encoding="utf-8") as f:
         f.write(m3u)
 
-    total = p_count + m_count + i_count
+    total = p_count + m_count + pr_count + i_count
     print(f"Done: {total} channels -> {out}")
 
 if __name__ == "__main__":
