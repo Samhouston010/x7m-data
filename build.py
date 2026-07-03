@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Merge Persiana + News + Israel channels into one M3U with EPG."""
-import json, re, os, urllib.request, zipfile, io
-from concurrent.futures import ThreadPoolExecutor, as_completed
+import json, re, os, shutil, subprocess, tempfile, urllib.request, zipfile, io
 
 PERSIANA_M3U = "https://raw.githubusercontent.com/Samhouston010/persiana-tv-epg/main/final.m3u"
 IDANPLUS_ZIP = "https://raw.githubusercontent.com/fishenzon/repo/master/zips/plugin.video.idanplus/plugin.video.idanplus-3.9.9.zip"
@@ -28,60 +27,46 @@ MBC_CHANNELS = [
 ]
 
 PREMIUM_JSON = os.path.join(os.path.dirname(__file__), "premium_channels.json")
-WORKERS = 40
-TIMEOUT = 10
+CHECKER_PARALLEL = 30
+CHECKER_TIMEOUT_MS = 15000
 
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     return urllib.request.urlopen(req, timeout=30).read()
 
-def check_url(url):
-    try:
-        req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "Mozilla/5.0"})
-        return urllib.request.urlopen(req, timeout=TIMEOUT).status < 400
-    except Exception:
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "Range": "bytes=0-1024"})
-            return urllib.request.urlopen(req, timeout=TIMEOUT).status < 400
-        except Exception:
-            return False
+def run_iptv_checker(m3u_text):
+    """Runs freearhey/iptv-checker (ffprobe-based) and returns the surviving m3u body."""
+    if not m3u_text.strip():
+        return ""
+    workdir = tempfile.mkdtemp(prefix="iptv-checker-")
+    infile = os.path.join(workdir, "in.m3u")
+    outdir = os.path.join(workdir, "out")
+    with open(infile, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n" + m3u_text)
 
-def parse_blocks(text):
-    """Split an m3u body into (extinf + opt lines + url) blocks."""
-    lines = text.split("\n")
-    blocks, i, n = [], 0, len(lines)
-    while i < n:
-        if lines[i].startswith("#EXTINF"):
-            block = [lines[i]]
-            i += 1
-            while i < n and lines[i].startswith("#") and not lines[i].startswith("#EXTINF"):
-                block.append(lines[i])
-                i += 1
-            if i < n and lines[i].strip() and not lines[i].startswith("#"):
-                block.append(lines[i])
-                i += 1
-            blocks.append(block)
-        else:
-            i += 1
-    return blocks
+    npx = shutil.which("npx") or "npx"
+    subprocess.run(
+        [npx, "--yes", "iptv-checker", infile, "-o", outdir,
+         "-p", str(CHECKER_PARALLEL), "-t", str(CHECKER_TIMEOUT_MS)],
+        check=True,
+        shell=(os.name == "nt"),
+    )
+
+    with open(os.path.join(outdir, "online.m3u"), "r", encoding="utf-8") as f:
+        online = f.read()
+    shutil.rmtree(workdir, ignore_errors=True)
+
+    lines = online.split("\n")
+    if lines and lines[0].strip() == "#EXTM3U":
+        lines = lines[1:]
+    return "\n".join(lines).strip()
 
 def filter_dead(text, label):
-    """Concurrently HEAD-check every stream in an m3u body, drop dead ones."""
-    blocks = parse_blocks(text)
-    alive, dead = [], 0
-    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
-        futures = {pool.submit(check_url, b[-1]): b for b in blocks if len(b) > 1}
-        for fut in as_completed(futures):
-            block = futures[fut]
-            if fut.result():
-                alive.append(block)
-            else:
-                dead += 1
-    print(f"  {label}: {len(alive)} alive, {dead} dead removed")
-    # preserve original order
-    order = {id(b): idx for idx, b in enumerate(blocks)}
-    alive.sort(key=lambda b: order[id(b)])
-    return "\n".join("\n".join(b) for b in alive)
+    before = text.count("#EXTINF")
+    survivors = run_iptv_checker(text)
+    after = survivors.count("#EXTINF")
+    print(f"  {label}: {after} alive, {before - after} dead removed")
+    return survivors
 
 def get_persiana():
     data = fetch(PERSIANA_M3U).decode("utf-8")
