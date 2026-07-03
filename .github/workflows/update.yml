@@ -6,11 +6,17 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Ensure ffmpeg is installed
+        run: command -v ffprobe || (sudo apt-get update && sudo apt-get install -y ffmpeg)
       - name: Build M3U
         run: python build.py
       - name: Commit & Push
