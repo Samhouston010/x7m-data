@@ -1,7 +1,6 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/Samhouston010/persiana-tv-epg/main/all.xml.gz,https://raw.githubusercontent.com/Samhouston010/sepehr-irib-epg/main/sepehr.xml.gz"
 
 ## --- Persiana + Iran ---
-
 #EXTINF:-1 tvg-id="IRIB1.ir" tvg-name="شبکه 1" tvg-logo="https://static.telewebion.ir/channelsLogo/9aa86b5c-5cfb-44d0-ba60-8f2af3ef4c9a/default" group-title="سراسری",شبکه 1
 https://ncdn.telewebion.ir/tv1/live/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="شبکه 2" tvg-logo="https://static.telewebion.ir/channelsLogo/MzYyMzM1NmVhYjc5MmZlY2ZmNzJlMGY3ZmJjZjc5Y2UwNDkyODQxNDU4YzU5MjE0MzFlYjg4NWM4NDZiNzA5NA/default" group-title="سراسری",شبکه 2
@@ -206,8 +205,6 @@ https://noshls.persiana.live/hls/stream.m3u8
 https://sonhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="setmix" tvg-name="SetMix" tvg-logo="https://www.persianagroup.tv/assets/logos/setmix.png" group-title="پرشیانا",SetMix
 https://setmixhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="travel" tvg-name="Travel" tvg-logo="https://www.persianagroup.tv/assets/logos/travel.png" group-title="پرشیانا",Travel
-https://ptravelhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="kurd4" tvg-name="4 Kurd" tvg-logo="https://www.persianagroup.tv/assets/logos/kurd4.png" group-title="پرشیانا",4 Kurd
 https://4kuhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="English Club TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/englishclubtv.default.png" group-title="پرشیانا",English Club TV
@@ -220,8 +217,6 @@ https://rdejhls.wns.live/hls/stream.m3u8
 https://mellihls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Persian" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/bbcpersian.default.svg" group-title="اخبار فارسی",بی‌بی‌سی فارسی
 https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/t=3840/v=pv14/b=5070016/main.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Manoto" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/manoto.default.svg" group-title="اخبار فارسی",منوتو
-https://ca-rt.onetv.app/manototv/index-0.m3u8?token=onetv202
 #EXTINF:-1 tvg-id="" tvg-name="VOA Persian" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/voapersian.default.png" group-title="اخبار فارسی",صدای آمریکا
 https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Radio Farda TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/radiofarda.default.svg" group-title="اخبار فارسی",رادیو فردا TV
@@ -230,18 +225,10 @@ https://rferl-ingest.akamaized.net/hls/live/2121768/tvmc01/playlist.m3u8
 https://parshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Mihan TV" tvg-logo="https://www.parsatv.com/index_files/channels/mihantv.jpg" group-title="اخبار فارسی",میهن
 https://iptv.mihantv.com/mihantv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Channel One" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/kanalyek.default.png" group-title="اخبار فارسی",کانال یک
-https://ca-rt.onetv.app:8443/ChannelOne/index-0.m3u8?token=onetv202
 #EXTINF:-1 tvg-id="" tvg-name="Revolution TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/irannationalrevolutiontv.default.png" group-title="اخبار فارسی",ایران ملی Revolution
 https://hls.irannrtv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Novin TV" tvg-logo="https://www.parsatv.com/index_files/channels/novintv.png" group-title="اخبار فارسی",نوین
 https://stream.novin.live/hls/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Iran Aryaee" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/iranearyaee.default.png" group-title="اخبار فارسی",ایران آریایی
-https://oldkors-9u3p1.cfcross.workers.dev/?url=http://iranaryaee.icdndhcp.com/iranearyaeesd/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Irane Farda" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/iranefardatv.default.png" group-title="اخبار فارسی",ایران فردا
-https://hls.iranfarda.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Iran Independent" tvg-logo="https://www.parsatv.com/index_files/channels/iranindependent.jpg" group-title="اخبار فارسی",ایران مستقل
-https://ca-rt.onetv.app/hls/iranindtv/index.m3u8?token=onetv202
 #EXTINF:-1 tvg-id="" tvg-name="Khabarbin TV" tvg-logo="https://www.parsatv.com/index_files/channels/khabarbin.png" group-title="اخبار فارسی",خبربین
 https://khbhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Didgah TV" tvg-logo="https://www.parsatv.com/index_files/channels/didgahtv.png" group-title="اخبار فارسی",دیدگاه
@@ -252,14 +239,10 @@ https://live.pars-israel.com/tmp_hls/iptv/index.m3u8
 https://kjhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Woman TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/zantv.default.svg" group-title="اخبار فارسی",زن TV
 https://wmtvhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Net TV" tvg-logo="https://www.parsatv.com/index_files/channels/nettv.png" group-title="شبکه‌های فارسی",نت TV
-https://eplhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="T2 TV" tvg-logo="https://www.parsatv.com/index_files/channels/t2tv.jpg" group-title="شبکه‌های فارسی",T2
 https://t2hls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="4U TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/4utv.default.png" group-title="شبکه‌های فارسی",4U TV
 https://hls.4utv.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Tapesh" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/pbctapesh.default.png" group-title="شبکه‌های فارسی",تپش
-https://maxtvhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tapesh Iran" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/tapesh2.default.png" group-title="شبکه‌های فارسی",تپش ایران
 https://iptv.tapesh.tv/tapeshiran/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PMC" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/pmc.default.svg" group-title="شبکه‌های فارسی",PMC
@@ -270,16 +253,12 @@ https://pmcrohls.wns.live/hls/stream.m3u8
 https://rjtvhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Avang TV" tvg-logo="https://www.parsatv.com/index_files/channels/avang.png" group-title="شبکه‌های فارسی",آوانگ
 https://hls.avang.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Navahang TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/navahang.default.svg" group-title="شبکه‌های فارسی",نواهنگ
-https://simahls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sun Music" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/sunmusic.default.png" group-title="شبکه‌های فارسی",سان موزیک
 https://hls.sunmusic.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Iran International Radio" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/iraninternationalradio.default.png" group-title="رادیو فارسی",رادیو ایران اینترنشنال
 https://radio.iraninternational.app/iintl_c
 #EXTINF:-1 tvg-id="" tvg-name="Radio Farda" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/radiofarda.default.svg" group-title="رادیو فارسی",رادیو فردا
 https://stream.radiojar.com/cp13r2cpn3quv
-#EXTINF:-1 tvg-id="" tvg-name="Radio Hamrah" tvg-logo="https://www.parsatv.com/index_files/channels/radiohamrah.jpg" group-title="رادیو فارسی",رادیو همراه
-https://stream-148.zeno.fm/nezaycc28vzuv
 #EXTINF:-1 tvg-id="" tvg-name="KIRN 670" tvg-logo="https://www.parsatv.com/index_files/channels/kirn.jpg" group-title="رادیو فارسی",KIRN 670
 https://ice41.securenetsystems.net/KIRN
 #EXTINF:-1 tvg-id="" tvg-name="London Persian Radio" tvg-logo="https://www.parsatv.com/index_files/channels/lprradio.jpg" group-title="رادیو فارسی",رادیو لندن LPR
@@ -296,8 +275,6 @@ https://s3.radio.co/sd07c718f1/listen
 https://radio.novin.live/live
 #EXTINF:-1 tvg-id="" tvg-name="Radio Shemroon" tvg-logo="https://www.parsatv.com/index_files/channels/radioshemroon.jpg" group-title="رادیو فارسی",رادیو شمرون
 https://s35.myradiostream.com/33640/listen.mp3
-#EXTINF:-1 tvg-id="" tvg-name="Iranian Congress" tvg-logo="https://www.parsatv.com/index_files/channels/iraniancongress.jpg" group-title="رادیو فارسی",کنگره ایرانیان
-https://stream.zenolive.com/kbt00r580feuv
 #EXTINF:-1 tvg-id="" tvg-name="RFI Farsi" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/radiofranceinternationalpersia.default.png" group-title="رادیو فارسی",RFI فارسی
 https://rfipersan96k.ice.infomaniak.ch/rfipersan-96k.mp3
 #EXTINF:-1 tvg-id="" tvg-name="PMC Select" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/pmc.default.svg" group-title="رادیو فارسی",PMC Select
@@ -336,8 +313,6 @@ https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
 https://nhk.lls.pbs.org/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CGTN English" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/cgtn.default.svg" group-title="شبکه‌های خارجی",CGTN English
 https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Kan 11" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/kan11.default.svg" group-title="شبکه‌های خارجی",Kan 11
-https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8?renditions
 #EXTINF:-1 tvg-id="" tvg-name="Fashion TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/fashiontv.default.svg" group-title="شبکه‌های خارجی",Fashion TV
 https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Al Jazeera Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Al_Jazeera_English_channel_logo.svg/320px-Al_Jazeera_English_channel_logo.svg.png" group-title="شبکه‌های خارجی",Al Jazeera Arabic
@@ -356,8 +331,6 @@ https://59ec5453559f0.streamlock.net/miamitv/smil:WEB4141/chunklist.m3u8
 https://nethls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tapesh" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/pbctapesh.default.png" group-title="همه",تپش
 https://iptv.tapesh.tv/tapesh/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PMC" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/pmc.default.svg" group-title="همه",PMC
-https://ca-rt.onetv.app:8443/PMCMusic/index-0.m3u8?token=onetv202
 #EXTINF:-1 tvg-id="" tvg-name="Navahang TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/navahang.default.svg" group-title="همه",نواهنگ
 https://hls.navahang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Press TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/presstv.default.svg" group-title="همه",پرس TV
@@ -446,8 +419,6 @@ https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a
 https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",FilmGold Germany (1080p)
 https://mainstreamfilmgold-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Fox.pl@SD" tvg-logo="https://i.imgur.com/hSDN9YQ.png" group-title="Sports HD",Fox (1080p) [Not 24/7]
-http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/6108/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",FOX Sports (1080p)
 https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports.m3u8
 #EXTINF:-1 tvg-id="FuboSportsNetwork.us@SD" tvg-logo="https://i.imgur.com/qFNRJLb.png" group-title="Sports HD",fubo Sports Network (1080p)
@@ -486,8 +457,6 @@ https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8
 https://amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MovieSphere.us@UK" tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="Movies HD",MovieSphere UK (1080p)
 https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="MTV.pl@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" group-title="Music HD",MTV (1080p) [Not 24/7]
-http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7294/index.m3u8
 #EXTINF:-1 tvg-id="MTVBiggestPop.us@Brazil" tvg-logo="https://i.imgur.com/AOaZmlS.png" group-title="Music HD",MTV Biggest Pop (1080p)
 https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8
 #EXTINF:-1 tvg-id="MTVBiggestPop.us@US" tvg-logo="https://i.imgur.com/AOaZmlS.png" group-title="Music HD",MTV Biggest Pop (1080p)
@@ -516,20 +485,6 @@ https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB1700007PK&channel_i
 https://dg37ei3o66x3s.cloudfront.net/OutTV_US.m3u8
 #EXTINF:-1 tvg-id="PBSTravel.us@SD" tvg-logo="https://i.imgur.com/A6GXhta.png" group-title="Travel HD",PBS Travel (1080p)
 https://d3hqevbyoxtkoi.cloudfront.net/PBS_Travel.m3u8
-#EXTINF:-1 tvg-id="PolsatFilm.pl@SD" tvg-logo="https://i.imgur.com/wGH6shZ.png" group-title="Movies HD",Polsat Film (1080p) [Not 24/7]
-http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/6086/index.m3u8
-#EXTINF:-1 tvg-id="PolsatSport1.pl@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Polsat_Sport_1_2024.svg/500px-Polsat_Sport_1_2024.svg.png" group-title="Sports HD",Polsat Sport 1 (1080p) [Not 24/7]
-http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7296/index.m3u8
-#EXTINF:-1 tvg-id="PolsatSport2.pl@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Polsat_Sport_2_2024.svg/500px-Polsat_Sport_2_2024.svg.png" group-title="Sports HD",Polsat Sport 2 (1080p) [Not 24/7]
-http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7310/index.m3u8
-#EXTINF:-1 tvg-id="PolsatSport3.pl@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Polsat_Sport_3_2024.svg/500px-Polsat_Sport_3_2024.svg.png" group-title="Sports HD",Polsat Sport 3 (1080p) [Not 24/7]
-http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7303/index.m3u8
-#EXTINF:-1 tvg-id="PolsatSportFight.pl@SD" tvg-logo="https://i.imgur.com/8x1FV3o.png" group-title="Sports HD",Polsat Sport Fight (1080p) [Not 24/7]
-http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7311/index.m3u8
-#EXTINF:-1 tvg-id="PolsatSportPremium1.pl@SD" tvg-logo="https://i.imgur.com/hy1SKE0.png" group-title="Sports HD",Polsat Sport Premium 1 (1080p) [Not 24/7]
-http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7304/index.m3u8
-#EXTINF:-1 tvg-id="PolsatSportPremium2.pl@SD" tvg-logo="https://i.imgur.com/myyWeXY.png" group-title="Sports HD",Polsat Sport Premium 2 (1080p) [Not 24/7]
-http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7305/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Rakuten TV Asian Cinema Italy (1080p)
 https://asian-cinema-rakuten-tv-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6431/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Rakuten TV Romance Movies Finland (1080p)
@@ -542,8 +497,6 @@ https://d3ialx0k0mla2a.cloudfront.net/Roku_Sports_Channel.m3u8
 https://linear-1312.frequency.stream/dist/stirr/1312/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Speed Sport 1 (1080p)
 https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="SportKlub.pl@SD" tvg-logo="https://i.imgur.com/DpJUrlr.png" group-title="Sports HD",Sport Klub (1080p) [Not 24/7]
-http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/2521/index.m3u8
 #EXTINF:-1 tvg-id="Sportitalia.it@SD" tvg-logo="https://i.imgur.com/0CJGGgd.png" group-title="Sports HD",Sportitalia (1080p)
 https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Sports First (1080p)
@@ -576,28 +529,12 @@ https://d7vulbd7rxo7j.cloudfront.net/Yahoo_Sports_Network.m3u8
 https://jmp2.uk/plu-654102ed770cf1000866c307.m3u8
 
 ## --- Israel ---
-#EXTINF:-1 tvg-id="il_11" tvg-logo="kan.jpg" group-title="Israel TV",כאן 11
-https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="il_11" tvg-logo="kan.jpg" group-title="Israel TV",כאן 11 - גיבוי
-https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/kan11/live.livx
-#EXTINF:-1 tvg-id="il_11" tvg-logo="kan.jpg" group-title="Israel TV",כאן 11 - לקויי שמיעה
-https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/kan11_subs/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="il_12" tvg-logo="keshet.jpg" group-title="Israel TV",קשת 12
-http://localhost:8080/api/keshet/direct/hls/live/2033791/k12/index.m3u8?as=1
-#EXTINF:-1 tvg-id="il_12" tvg-logo="keshet.jpg" group-title="Israel TV",קשת 12 - גיבוי
-http://localhost:8080/api/keshet/stream/hls/live/2033791/k12n12wad/index.m3u8?b-in-range=0-700
-#EXTINF:-1 tvg-id="il_12" tvg-logo="keshet.jpg" group-title="Israel TV",קשת 12 - גיבוי 2
-http://localhost:8080/api/keshet/direct/hls/live/2033791/k12dvr/index.m3u8?b-in-range=800-2700
-#EXTINF:-1 tvg-id="il_12" tvg-logo="keshet.jpg" group-title="Israel TV",קשת 12 - לקויי שמיעה
-http://localhost:8080/api/keshet/direct/hls/live/2035325/k12cc/index.m3u8?as=1
 #EXTINF:-1 tvg-id="il_13" tvg-logo="13.jpg" group-title="Israel TV",רשת 13
 https://dsk76kvc9kie6.cloudfront.net/media/87f59c77-03f6-4bad-a648-897e095e7360/mainManifest.m3u8
 #EXTINF:-1 tvg-id="il_13" tvg-logo="13.jpg" group-title="Israel TV",רשת 13 - גיבוי
 https://d18b0e6mopany4.cloudfront.net/out/v1/2f2bc414a3db4698a8e94b89eaf2da2a/index.m3u8
 #EXTINF:-1 tvg-id="il_13" tvg-logo="13.jpg" group-title="Israel TV",רשת 13 - גיבוי 2
 https://d2xg1g9o5vns8m.cloudfront.net/out/v1/0855d703f7d5436fae6a9c7ce8ca5075/index.m3u8
-#EXTINF:-1 tvg-id="il_13" tvg-logo="13.jpg" group-title="Israel TV",רשת 13 - לקויי שמיעה
-https://reshet.g-mana.live/media/4607e158-e4d4-4e18-9160-3dc3ea9bc677/mainManifest.m3u8
 #EXTINF:-1 tvg-id="il_14" tvg-logo="14tv.png" group-title="Israel TV",עכשיו 14
 https://ch14channel14.encoders.immergo.tv/app/2/streamPlaylist.m3u8
 #EXTINF:-1 tvg-id="il_14" tvg-logo="14tv.png" group-title="Israel TV",עכשיו 14 - גיבוי
@@ -610,16 +547,6 @@ https://r.il.cdn-redge.media/livehls/oil/calcala-live/live/channel10/live.livx/p
 https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/kan_edu/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="il_23" tvg-logo="23tv.jpg" group-title="Israel TV",כאן חינוכית 23 - גיבוי
 https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/kan_edu/live.livx
-#EXTINF:-1 tvg-id="il_24" tvg-logo="24telad.png" group-title="Israel TV",ערוץ 24 החדש
-http://localhost:8080/api/keshet/direct/hls/live/2035340/ch24live/index.m3u8?as=1
-#EXTINF:-1 tvg-id="il_" tvg-logo="bb.jpg" group-title="Israel TV",האח הגדול 26
-https://d3snfszc9pg25z.cloudfront.net/media/e1739115-9182-4adc-8d19-8eb7fb6fdd3a/playlist_3.m3u8?_uid=2dfa21af-47dd-4772-9917-934f3ce7feea&rK=a8&_did=a4f82cc9-f24e-0789-2ffd-66f900f0b94b
-#EXTINF:-1 tvg-id="il_" tvg-logo="bb.jpg" group-title="Israel TV",האח הגדול 26 - גיבוי
-https://d3snfszc9pg25z.cloudfront.net/media/e1739115-9182-4adc-8d19-8eb7fb6fdd3a/master.m3u8
-#EXTINF:-1 tvg-id="il_33" tvg-logo="makan.png" group-title="Israel TV",מכאן 33
-https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="il_33" tvg-logo="makan.png" group-title="Israel TV",מכאן 33 - גיבוי
-https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/makan/live.livx
 #EXTINF:-1 tvg-id="il_66" tvg-logo="kabbalah.jpg" group-title="Israel TV",קבלה 66
 https://edge2.il.kab.tv/live/tv66-heb-high/playlist.m3u8
 #EXTINF:-1 tvg-id="il_97" tvg-logo="hidabroot.jpg" group-title="Israel TV",הידברות 97
@@ -642,14 +569,6 @@ https://www.oles.tv/891fm/player/
 https://edge2.il.kab.tv/live/tv66-rus-high/playlist.m3u8
 #EXTINF:-1 tvg-id="il_" tvg-logo="musayof.jpg" group-title="Israel TV",מוסיוף
 http://wowza.media-line.co.il/Musayof-Live/livestream.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="il_i24news" tvg-logo="i24news.png" group-title="Israel TV",i24news
-https://fastly.live.brightcove.com/6386790215112/eu-central-1/5377161796001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZXJmajYzLmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNTM3NzE2MTc5NjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI1Mzc3MTYxNzk2MDAxIl0sImp0aSI6IjYzODY3OTAyMTUxMTIifQ.8ZawImK7DfcrrXeAT2OVZ62qQJrJiBaoc7Y1DNNq1bg/playlist-hls.m3u8
-#EXTINF:-1 tvg-id="il_i24news" tvg-logo="i24news.png" group-title="Israel TV",i24news en
-https://fastly.live.brightcove.com/6386790908112/eu-central-1/5377161796001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZXJmajYzLmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNTM3NzE2MTc5NjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI1Mzc3MTYxNzk2MDAxIl0sImp0aSI6IjYzODY3OTA5MDgxMTIifQ._w5c3EwfnEecDCEpDaKuVz07uuEyUb3vXvQN3svv-oU/playlist-hls.m3u8
-#EXTINF:-1 tvg-id="il_i24news" tvg-logo="i24news.png" group-title="Israel TV",i24news fr
-https://fastly.live.brightcove.com/6386790513112/eu-central-1/5377161796001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZXJmajYzLmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNTM3NzE2MTc5NjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI1Mzc3MTYxNzk2MDAxIl0sImp0aSI6IjYzODY3OTA1MTMxMTIifQ.Szahkl5VVsEWGdM4mgrmlDPVkWPTRgBMwwGg4D5hGFU/playlist-hls.m3u8
-#EXTINF:-1 tvg-id="il_i24news" tvg-logo="i24news.png" group-title="Israel TV",i24news ar
-https://fastly.live.brightcove.com/6386792572112/eu-central-1/5377161796001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZXJmajYzLmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNTM3NzE2MTc5NjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI1Mzc3MTYxNzk2MDAxIl0sImp0aSI6IjYzODY3OTI1NzIxMTIifQ.vsA8IfCHFqoqo2BHxx4w0PqBgTESPMYgFGL771vzKoA/playlist-hls.m3u8
 #EXTINF:-1 tvg-id="il_13comedy" tvg-logo="13comedy.jpg" group-title="Israel TV",13 ערוץ הקומדיות
 https://d15ds134q59udk.cloudfront.net/out/v1/fbba879221d045598540ee783b140fe2/index.m3u8
 #EXTINF:-1 tvg-id="il_13nofesh" tvg-logo="13nofesh.jpg" group-title="Israel TV",ערוץ הנופש
@@ -664,26 +583,18 @@ https://cdn.cybercdn.live/Emtza_Haderech/Live_Audio/icecast.audio
 https://cdn.cybercdn.live/Lev_Hamedina/Audio/icecast.audio
 #EXTINF:-1 tvg-id="il_97fm" tvg-logo="97fm.jpg" group-title="Israel Radio",97FM רדיו דרום
 https://cdn.cybercdn.live/Darom_97FM/Live/icecast.audio
-#EXTINF:-1 tvg-id="il_99fm" tvg-logo="99fm.png" group-title="Israel Radio",ECO 99FM
-http://eco-live.mediacast.co.il/99fm_aac
 #EXTINF:-1 tvg-id="il_100fm" tvg-logo="100fm.jpg" group-title="Israel Radio",100FM רדיוס
 https://cdn.cybercdn.live/Radios_100FM/Audio/icecast.audio
 #EXTINF:-1 tvg-id="il_101fm" tvg-logo="101fm.png" group-title="Israel Radio",101FM רדיו ירושלים
 https://radio.streamgates.net/stream/101fm
 #EXTINF:-1 tvg-id="il_1015fm" tvg-logo="1015fm.jpg" group-title="Israel Radio",101.5FM רדיו דרום
 http://radio.2net.co.il/hatahana
-#EXTINF:-1 tvg-id="il_102fm" tvg-logo="102fm.jpg" group-title="Israel Radio",102FM רדיו תל אביב
-https://cdn88.mediacast.co.il/102fm-tlv/102fm_aac/icecast.audio
 #EXTINF:-1 tvg-id="il_102fmEilat" tvg-logo="102fmEilat.jpg" group-title="Israel Radio",102FM רדיו קול הים האדום
 https://cdn.cybercdn.live/Eilat_Radio/Live/icecast.audio
 #EXTINF:-1 tvg-id="il_103fm" tvg-logo="103fm.png" group-title="Israel Radio",103FM רדיו ללא הפסקה
 http://103fm.maariv.co.il/include/OnLineView.aspx
 #EXTINF:-1 tvg-id="il_1045fm" tvg-logo="1045fm.jpg" group-title="Israel Radio",104.5FM רדיו צפון
 https://1045fm.maariv.co.il/include/OnLineView.aspx
-#EXTINF:-1 tvg-id="il_1075fm" tvg-logo="1075fm.jpg" group-title="Israel Radio",107.5FM רדיו חיפה
-https://1075.livecdn.biz/radiohaifa
-#EXTINF:-1 tvg-id="il_bet" tvg-logo="bet.png" group-title="Israel Radio",כאן ב
-https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_reshet_bet/live.livx
 #EXTINF:-1 tvg-id="il_gimel" tvg-logo="gimel.png" group-title="Israel Radio",כאן גימל
 https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_gimel/live.livx
 #EXTINF:-1 tvg-id="il_culture" tvg-logo="culture.png" group-title="Israel Radio",כאן תרבות
@@ -692,8 +603,6 @@ https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_tarbut/live
 https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_kol_hamuzika/live.livx
 #EXTINF:-1 tvg-id="il_moreshet" tvg-logo="moreshet.png" group-title="Israel Radio",כאן מורשת
 https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_moreshet/live.livx
-#EXTINF:-1 tvg-id="il_" tvg-logo="23tv.jpg" group-title="Israel Radio",כאן ילדים
-https://kankids.media.kan.org.il/hls/live/2024820/2024820/playlist.m3u8
 #EXTINF:-1 tvg-id="il_5radio" tvg-logo="Sport5.png" group-title="Israel Radio",ספורט 5 אתר
 https://rgelive.akamaized.net/hls/live/2043150/radio5/playlist.m3u8
 #EXTINF:-1 tvg-id="il_reka" tvg-logo="reka.png" group-title="Israel Radio",כאן Reka
@@ -702,10 +611,6 @@ https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_reka/live.l
 http://www.891fm.co.il/
 #EXTINF:-1 tvg-id="il_" tvg-logo="1064fm.jpg" group-title="Israel Radio",Лучшее Радио 106.4FM
 https://cdna.streamgates.net/TheBest/live/playlist.m3u8
-#EXTINF:-1 tvg-id="il_makan" tvg-logo="makan.png" group-title="Israel Radio",כאן مكان
-https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/radio_makan/live.livx
-#EXTINF:-1 tvg-id="il_" tvg-logo="mizrahit.png" group-title="Israel Radio",קול הים התיכון
-https://mzr.mediacast.co.il/mzradio
 #EXTINF:-1 tvg-id="il_kolhay" tvg-logo="kolhay.jpg" group-title="Israel Radio",93FM קול חי
 https://media2.93fm.co.il/live-new
 #EXTINF:-1 tvg-id="il_" tvg-logo="kolhaymusic.jpg" group-title="Israel Radio",קול חי מיוזיק
@@ -720,5 +625,3 @@ https://cdn.cybercdn.live/Galei_Israel/Live/icecast.audio
 https://995.livecdn.biz/995fm
 #EXTINF:-1 tvg-id="il_" tvg-logo="noshmim.jpg" group-title="Israel Radio",רדיו נושמים מזרחית
 https://rs.mizrahit.fm:7777
-#EXTINF:-1 tvg-id="il_" tvg-logo="diki.jpg" group-title="Israel Radio",רדיו שירי דיכאון
-https://diki.mediacast.co.il/diki
