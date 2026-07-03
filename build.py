@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """Merge Persiana + News + Israel channels into one M3U with EPG."""
-import json, re, os, shutil, subprocess, tempfile, urllib.request, zipfile, io
+import json, os, shutil, subprocess, tempfile, urllib.request, zipfile, io
 
 PERSIANA_M3U = "https://raw.githubusercontent.com/Samhouston010/persiana-tv-epg/main/final.m3u"
 IDANPLUS_ZIP = "https://raw.githubusercontent.com/fishenzon/repo/master/zips/plugin.video.idanplus/plugin.video.idanplus-3.9.9.zip"
-KESHET_BASE = "https://mako-streaming.akamaized.net"
-SAMTV_KESHET_PROXY = "http://localhost:8080/api/keshet"
+# Keshet channels (Keshet 12 + Channel 24) need a Sam TV proxy server to play.
+# Set this to the server URL (e.g. "http://myserver:8080/api/keshet") when it's
+# running again — empty string keeps them out of the playlist entirely.
+SAMTV_KESHET_PROXY = ""
 
 EPG_URLS = ",".join([
     "https://raw.githubusercontent.com/Samhouston010/persiana-tv-epg/main/all.xml.gz",
@@ -76,18 +78,23 @@ def get_persiana():
     return "\n".join(lines)
 
 def get_israel():
+    """Returns (checked, proxied): proxied channels go through the Sam TV proxy,
+    which the CI runner can't reach, so they must bypass the dead-link checker."""
     data = fetch(IDANPLUS_ZIP)
     zf = zipfile.ZipFile(io.BytesIO(data))
     channels = json.loads(zf.read("plugin.video.idanplus/resources/channels.json"))
 
-    lines = []
+    lines, proxied = [], []
     for key, ch in channels.items():
         name = ch.get("name", key)
         link_info = ch.get("linkDetails", {})
         link = link_info.get("link", "")
         if not link:
             continue
-        if link.startswith("/direct/") or link.startswith("/stream/"):
+        needs_proxy = link.startswith("/direct/") or link.startswith("/stream/")
+        if needs_proxy:
+            if not SAMTV_KESHET_PROXY:
+                continue  # proxy server is down, keep these out for now
             link = SAMTV_KESHET_PROXY + link
         if not link.startswith("http"):
             continue
@@ -96,10 +103,11 @@ def get_israel():
         tvg_id = ch.get("tvgID", "")
         group = "Israel Radio" if key.startswith("rd_") else "Israel TV"
 
-        lines.append(f'#EXTINF:-1 tvg-id="il_{tvg_id}" tvg-logo="{img}" group-title="{group}",{name}')
-        lines.append(link)
+        out = proxied if needs_proxy else lines
+        out.append(f'#EXTINF:-1 tvg-id="il_{tvg_id}" tvg-logo="{img}" group-title="{group}",{name}')
+        out.append(link)
 
-    return "\n".join(lines)
+    return "\n".join(lines), "\n".join(proxied)
 
 def main():
     print("Fetching Persiana channels...")
@@ -147,8 +155,14 @@ def main():
     pr_count = premium.count("#EXTINF")
 
     print("Fetching Israel channels from idanplus...")
-    israel = get_israel()
-    israel = filter_dead(israel, "Israel")
+    try:
+        israel, israel_proxied = get_israel()
+        israel = filter_dead(israel, "Israel")
+        if israel_proxied:
+            israel += ("\n" if israel else "") + israel_proxied  # unchecked: CI can't reach the proxy
+    except Exception as e:
+        print(f"  Israel section skipped ({e})")  # third-party zip is best-effort
+        israel = ""
     i_count = israel.count("#EXTINF")
 
     header = f'#EXTM3U x-tvg-url="{EPG_URLS}"\n\n'
