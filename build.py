@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Merge Persiana + News + Israel channels into one M3U with EPG."""
 import json, re, os, urllib.request, zipfile, io
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 PERSIANA_M3U = "https://raw.githubusercontent.com/Samhouston010/persiana-tv-epg/main/final.m3u"
 IDANPLUS_ZIP = "https://raw.githubusercontent.com/fishenzon/repo/master/zips/plugin.video.idanplus/plugin.video.idanplus-3.9.9.zip"
@@ -27,10 +28,60 @@ MBC_CHANNELS = [
 ]
 
 PREMIUM_JSON = os.path.join(os.path.dirname(__file__), "premium_channels.json")
+WORKERS = 40
+TIMEOUT = 10
 
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     return urllib.request.urlopen(req, timeout=30).read()
+
+def check_url(url):
+    try:
+        req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "Mozilla/5.0"})
+        return urllib.request.urlopen(req, timeout=TIMEOUT).status < 400
+    except Exception:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "Range": "bytes=0-1024"})
+            return urllib.request.urlopen(req, timeout=TIMEOUT).status < 400
+        except Exception:
+            return False
+
+def parse_blocks(text):
+    """Split an m3u body into (extinf + opt lines + url) blocks."""
+    lines = text.split("\n")
+    blocks, i, n = [], 0, len(lines)
+    while i < n:
+        if lines[i].startswith("#EXTINF"):
+            block = [lines[i]]
+            i += 1
+            while i < n and lines[i].startswith("#") and not lines[i].startswith("#EXTINF"):
+                block.append(lines[i])
+                i += 1
+            if i < n and lines[i].strip() and not lines[i].startswith("#"):
+                block.append(lines[i])
+                i += 1
+            blocks.append(block)
+        else:
+            i += 1
+    return blocks
+
+def filter_dead(text, label):
+    """Concurrently HEAD-check every stream in an m3u body, drop dead ones."""
+    blocks = parse_blocks(text)
+    alive, dead = [], 0
+    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        futures = {pool.submit(check_url, b[-1]): b for b in blocks if len(b) > 1}
+        for fut in as_completed(futures):
+            block = futures[fut]
+            if fut.result():
+                alive.append(block)
+            else:
+                dead += 1
+    print(f"  {label}: {len(alive)} alive, {dead} dead removed")
+    # preserve original order
+    order = {id(b): idx for idx, b in enumerate(blocks)}
+    alive.sort(key=lambda b: order[id(b)])
+    return "\n".join("\n".join(b) for b in alive)
 
 def get_persiana():
     data = fetch(PERSIANA_M3U).decode("utf-8")
@@ -68,17 +119,16 @@ def get_israel():
 def main():
     print("Fetching Persiana channels...")
     persiana = get_persiana()
+    persiana = filter_dead(persiana, "Persiana")
     p_count = persiana.count("#EXTINF")
-    print(f"  {p_count} channels")
 
     print("Adding MBC channels...")
     mbc_lines = []
     for ch in MBC_CHANNELS:
         mbc_lines.append(f'#EXTINF:-1 tvg-id="{ch["id"]}" tvg-logo="" group-title="MBC",{ch["name"]}')
         mbc_lines.append(ch["url"])
-    mbc = "\n".join(mbc_lines)
-    m_count = len(MBC_CHANNELS)
-    print(f"  {m_count} channels")
+    mbc = filter_dead("\n".join(mbc_lines), "MBC")
+    m_count = mbc.count("#EXTINF")
 
     print("Adding Premium HD channels...")
     prem_lines = []
@@ -108,14 +158,13 @@ def main():
                 grp = "Premium HD"
             prem_lines.append(f'#EXTINF:-1 tvg-id="{tid}" tvg-logo="{logo}" group-title="{grp}",{name}')
             prem_lines.append(ch["url"])
-    premium = "\n".join(prem_lines)
-    pr_count = len(prem_lines) // 2
-    print(f"  {pr_count} channels")
+    premium = filter_dead("\n".join(prem_lines), "Premium HD")
+    pr_count = premium.count("#EXTINF")
 
     print("Fetching Israel channels from idanplus...")
     israel = get_israel()
+    israel = filter_dead(israel, "Israel")
     i_count = israel.count("#EXTINF")
-    print(f"  {i_count} channels")
 
     header = f'#EXTM3U x-tvg-url="{EPG_URLS}"\n\n'
 
