@@ -1,566 +1,398 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/Samhouston010/persiana-tv-epg/main/all.xml.gz,https://raw.githubusercontent.com/Samhouston010/sepehr-irib-epg/main/sepehr.xml.gz"
 
 ## --- Persiana + Iran ---
-#EXTINF:-1 tvg-id="" tvg-name="ایلام" tvg-logo="https://static.telewebion.ir/channelsLogo/ZjZmYWFkMDdlY2Q1Nzg1OGI5YTEzNjk2NDBjODc4Njk1YzNiY2U5ODRmODRkNDA1Mzk4M2IwNzY3MjIwMzQ2MQ/default" group-title="استانی",ایلام
-https://ncdn.telewebion.ir/ilam/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="سبلان" tvg-logo="https://static.telewebion.ir/channelsLogo/Njg3ZWFiNjYzNzc4ZWE3MmVhZjUyMDFmNzFkZGY5NGNiNGUyN2UyZjgwY2I3ZGUxZWMxM2M4ZjYzYWEwODgzZQ/default" group-title="استانی",سبلان
-https://ncdn.telewebion.ir/sabalan/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="سهند" tvg-logo="https://static.telewebion.ir/channelsLogo/NjQ0MTQyODE5ZTYzZmZjNTliNTBmY2I2NDk1MjczM2JlOTk1NTljYWExODY0ZjFiMWU0OTZiY2Y4OTc4MjQ4MQ/default" group-title="استانی",سهند
-https://ncdn.telewebion.ir/sahand/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="آذربایجان غربی" tvg-logo="https://static.telewebion.ir/channelsLogo/b1a30927-c269-4c05-a02f-d6056d59eae7/default" group-title="استانی",آذربایجان غربی
-https://ncdn.telewebion.ir/azarbayjangharbi/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="سلامت" tvg-logo="https://static.telewebion.ir/channelsLogo/b24edd34-d2ef-4c18-9f95-7978c719ead6/default" group-title="سراسری",سلامت
-https://ncdn.telewebion.ir/salamat/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="آموزش" tvg-logo="https://static.telewebion.ir/channelsLogo/80849bee-6fb3-4e82-8047-da2ead8b61bf/default" group-title="سراسری",آموزش
-https://ncdn.telewebion.ir/amouzesh/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="شبکه تهران" tvg-logo="https://static.telewebion.ir/channelsLogo/NzQyZGZmZmI2MTlkZmYxZTdkMzFjNmVlYzY3MzdmNTJkNzZmYTZkOGYxM2U5YjJmMjk2NGQyMDhmZWMyYjY2Yw/default" group-title="سراسری",شبکه تهران
-https://ncdn.telewebion.ir/tehran/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="شبکه 4" tvg-logo="https://static.telewebion.ir/channelsLogo/MTc1NzNhNjAxNjlhNDA4NzRhZjYzMzNhNjk2OWY2ZWIyY2JjNTEzM2ZjOTk2ZjViNjUwMTg3YjQ1OGJkMzZmOA/default" group-title="سراسری",شبکه 4
-https://ncdn.telewebion.ir/tv4/live/playlist.m3u8
-#EXTINF:-1 tvg-id="AtrakTV.ir" tvg-name="اترک" tvg-logo="https://static.telewebion.ir/channelsLogo/c059616c-053f-4044-baf1-4444c7101161/default" group-title="استانی",اترک
-https://ncdn.telewebion.ir/atrak/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="بوشهر" tvg-logo="https://static.telewebion.ir/channelsLogo/Y2NmODlmYjdiOWM0MTVmMGU0ZjM5NGEwOGIxMDliZjg0MjhmMTU3MDNlNzViZDJjNDMzNWQ2OTkzNzc0N2MxZA/default" group-title="استانی",بوشهر
-https://ncdn.telewebion.ir/bushehr/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="آبادان" tvg-logo="https://static.telewebion.ir/channelsLogo/Y2ZmOWFkZDdhNmJjNzE1NjM3OTk3ZGQ1NGJlOTM0NWUzODUyZWUxZDdhYjg4YWM5ZDUwMzllMTJhNjkyOWRjNg/default" group-title="استانی",آبادان
-https://ncdn.telewebion.ir/abadan/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="اصفهان" tvg-logo="https://static.telewebion.ir/channelsLogo/YTM3Zjk1NjI2NDljM2Q0NjA3ZGY2OGJkMTFhNDU4MjRmOWFkZDc5MGMwYThjZTVjN2UxYWQ0MWEwOTFlNGNkOQ/default" group-title="استانی",اصفهان
-https://ncdn.telewebion.ir/esfahan/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="البرز" tvg-logo="https://static.telewebion.ir/channelsLogo/f38a5e88-f85d-4b1e-a102-74b0889cae33/default" group-title="استانی",البرز
-https://ncdn.telewebion.ir/alborz/live/playlist.m3u8
-#EXTINF:-1 tvg-id="JahanbinTV.ir" tvg-name="جهانبین" tvg-logo="https://static.telewebion.ir/channelsLogo/ODY4NmQ1MzFkYmE0NDdlYzY1YmQ4NTlhOWZkNjIxMDg4ZTc1OGJjMzZkYWM1Mjk1OGYwZWU2YjY5OWRhZmY5Nw/default" group-title="استانی",جهانبین
-https://ncdn.telewebion.ir/jahanbin/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="خراسان رضوی" tvg-logo="https://static.telewebion.ir/channelsLogo/YzExZDIzZDJmOTQyMDMzYTdmMThiY2U2YTk5ZTA1NjBkOTc4ZjNiMGVhNDQ4YjI0YTkxOTE4NmQyYzQ1NjRlYw/default" group-title="استانی",خراسان رضوی
-https://ncdn.telewebion.ir/khorasanrazavi/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="افق" tvg-logo="https://static.telewebion.ir/channelsLogo/OTc3YjJkNzk0MmJjMjkxMTRmNjk2MmNhNTdiNGNkNjMxNjE2NWU1ZDI5MzlhMjI0MzZiYzljNDVkMjRkZTkxMA/default" group-title="سراسری",افق
-https://ncdn.telewebion.ir/ofogh/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="امید" tvg-logo="https://static.telewebion.ir/channelsLogo/NzRjZTk4ZmFjMGNlNzMzMjM2N2JjYWE1YTFmYmVkOTMzYTVmNzgzNzk1ZGZlMDJiMGM5NzU1YTM3NDkyZmY0Zg/default" group-title="سراسری",امید
-https://ncdn.telewebion.ir/omid/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="شبکه 2" tvg-logo="https://static.telewebion.ir/channelsLogo/MzYyMzM1NmVhYjc5MmZlY2ZmNzJlMGY3ZmJjZjc5Y2UwNDkyODQxNDU4YzU5MjE0MzFlYjg4NWM4NDZiNzA5NA/default" group-title="سراسری",شبکه 2
-https://ncdn.telewebion.ir/tv2/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="تماشا" tvg-logo="https://static.telewebion.ir/channelsLogo/N2ZjYjI0ZWFmMDdhZTk0MTljZjg5NDI1MjVhYzFjNThiNWU4NDVlMjJlYTI4MWRkMjI1Mjc2YmJmN2FiMzVjYw/default" group-title="سراسری",تماشا
-https://ncdn.telewebion.ir/hdtest/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="نسیم" tvg-logo="https://static.telewebion.ir/channelsLogo/NWMwZWI1N2NiNTgzZjVhYjViNmMxNTYzZjQ0ODczZTMwZWEyZWQyMDJlN2RjMmIwNTUzYmE4NTFiZDljYzQwOQ/default" group-title="سراسری",نسیم
-https://ncdn.telewebion.ir/nasim/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="خبر" tvg-logo="https://static.telewebion.ir/channelsLogo/YjZjYTVlY2I2MGU2ZjNjOTEzZGRlYTFmODE5YTc2OGQ0M2YxMTMzNGQ5NTZiMTFmZDhiYzIzZjVkNWViZjg2Zg/default" group-title="سراسری",خبر
-https://ncdn.telewebion.ir/irinn/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="قرآن" tvg-logo="https://static.telewebion.ir/channelsLogo/ZTIxODczOWE4OWQ4MzRmOWU2M2Q3N2ZiYmI4YzNjMTNkZmM3YmQ1NmQ2MGVjMjE5ZDljZmIyZWU5N2RkZWMwMw/default" group-title="سراسری",قرآن
-https://ncdn.telewebion.ir/quran/live/playlist.m3u8
-#EXTINF:-1 tvg-id="IRIB1.ir" tvg-name="شبکه 1" tvg-logo="https://static.telewebion.ir/channelsLogo/9aa86b5c-5cfb-44d0-ba60-8f2af3ef4c9a/default" group-title="سراسری",شبکه 1
-https://ncdn.telewebion.ir/tv1/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="پویا" tvg-logo="https://static.telewebion.ir/channelsLogo/Y2U2NGUwOTYxMjczYzIwNjQwNDEzMzI0YTY0OWRlYjQ2NTU4NjYyYzg5MjIwOWZkZTUyOGE1ZmRiNjMwZjA4ZA/default" group-title="سراسری",پویا
-https://ncdn.telewebion.ir/pooya/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="مستند" tvg-logo="https://static.telewebion.ir/channelsLogo/NmI1OTM5YTljNWYxNjBhNTEyNDE4ZmYwY2FhODY1MzQwMWI4N2VmOTc5MmVhYTg5YmIwZDlmZDJhZmZjMTc2ZQ/default" group-title="سراسری",مستند
-https://ncdn.telewebion.ir/mostanad/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="IFilm" tvg-logo="https://static.telewebion.ir/channelsLogo/NTgyNmRjMzlhMGY4MmUwNGNjZDJiMjM4OTEwNjMxNTRmMjA5Mjc1N2FiYWY2MGEzOGVkZTg1NWM0Yzc5YzU4Mw/default" group-title="سراسری",IFilm
-https://ncdn.telewebion.ir/ifilm/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="نمایش" tvg-logo="https://static.telewebion.ir/channelsLogo/cf874981-6dbe-4a64-b6c1-41c715714b34/default" group-title="سراسری",نمایش
-https://ncdn.telewebion.ir/namayesh/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="خبر 2" tvg-logo="https://static.telewebion.ir/channelsLogo/0a85d80d-6380-4fe4-b23f-23a2615a411e/default" group-title="سراسری",خبر 2
-https://ncdn.telewebion.ir/irinn2/live/playlist.m3u8
-#EXTINF:-1 tvg-id="KhozestanTV.ir" tvg-name="خوزستان" tvg-logo="https://static.telewebion.ir/channelsLogo/fa5cadf8-318c-48c3-b067-33bd67b1ef49/default" group-title="استانی",خوزستان
-https://ncdn.telewebion.ir/khoozestan/live/playlist.m3u8
-#EXTINF:-1 tvg-id="IRIB3.ir" tvg-name="شبکه 3" tvg-logo="https://static.telewebion.ir/channelsLogo/MWUxYmE4YjJhZTc4OWZiOTVkMzczODdkN2NjY2I4YjNiZTFjYjRiODM3NjhiMzcxOGI5YzdjMWNlODA3YjMzYg/default" group-title="سراسری",شبکه 3
-https://ncdn.telewebion.ir/tv3/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ورزش" tvg-logo="https://static.telewebion.ir/channelsLogo/592f762d-695f-42bc-912f-ecc98546d6b5/default" group-title="سراسری",ورزش
-https://ncdn.telewebion.ir/varzesh/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="نور" tvg-logo="https://static.telewebion.ir/channelsLogo/OTQzMjA1YTA1OTVjYmIxZjExYjZjYjk3ZjgzOWE1YmYwOTM3YzY1YzIyMmM3NzZmYWQwNjBmZDhkMjU0NDkwNw/default" group-title="استانی",نور
-https://ncdn.telewebion.ir/noor/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="کیش" tvg-logo="https://static.telewebion.ir/channelsLogo/NWI5MDUzZTJhOTZlOThmOTgzZDQyMmNiYzVlYjhiZGUyOWY3OTg2NDM5YjUwOWVmMDU3OGEwYjVjZDQ0NjU2NQ/default" group-title="استانی",کیش
-https://ncdn.telewebion.ir/kish/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="خلیج فارس" tvg-logo="https://static.telewebion.ir/channelsLogo/OWNlMTMxMzA4YTA2Y2NjZDhiMGVhNmQwYzE2YTc2OGI2ZTQ3MTRlYmU5ZjFhOWMzNzU4YmNkYTlkOWI1NmQ3Yg/default" group-title="استانی",خلیج فارس
-https://ncdn.telewebion.ir/khalijefars/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="سمنان" tvg-logo="https://static.telewebion.ir/channelsLogo/OTM3YWVhYmU4NDgzOWRlMWY1ZTI0ODYyNzgyOWJiZGFkOWU5NzBjMjQ2NDY2ZWQ0MmFjZGQ2MjRkOGNiMWEzOQ/default" group-title="استانی",سمنان
-https://ncdn.telewebion.ir/semnan/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="زاگرس" tvg-logo="https://static.telewebion.ir/channelsLogo/ZDcwNjM3MjMwODE0MzdlNDQ5YTEzNTZjMGE5MzMwNjBkOTcwOTRmNDE3YmZmMmQxNGM2MDI5MjI2MWFlZWM5MA/default" group-title="استانی",زاگرس
-https://ncdn.telewebion.ir/zagros/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="اشراق" tvg-logo="https://static.telewebion.ir/channelsLogo/Yjc3NjRhMGJiZWJiNTk1ZDM5MDU3ODZlMTcyNmQ1YjMxMDkyNWVhYzYyNzQ4NDQ5MzM2OTFjZTEzMWU4NmMzNQ/default" group-title="استانی",اشراق
-https://ncdn.telewebion.ir/eshragh/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="باران" tvg-logo="https://static.telewebion.ir/channelsLogo/ZGM5ODhlYWY4NTE4YWRiMDg1OTk2Yzg4OWI1ODc1YWNmYzhhM2VkNThiYmM2ZjczM2U0Njk4OWU4N2Q4ZWQ3Zg/default" group-title="استانی",باران
-https://ncdn.telewebion.ir/baran/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="گلستان" tvg-logo="https://static.telewebion.ir/channelsLogo/MDFiMjQwMTlkMGM3OGNkZWM2ZmFmODM4MGI1YWYyZWM5N2UxOTkxYjUxMjRlMWYyNzVkNTQyOGVkZWFlMTZkMw/default" group-title="استانی",گلستان
-https://ncdn.telewebion.ir/sabz/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="هامون" tvg-logo="https://static.telewebion.ir/channelsLogo/ZTY4OThmNTUxNmNhZmNlOThjMzk0MzYyZDBlMWVkNTg1MGJkZGRiMTdmYzNlNDY0ZGM1ZTc5NTU4OGE1NDc3MQ/default" group-title="استانی",هامون
-https://ncdn.telewebion.ir/hamoon/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="همدان" tvg-logo="https://static.telewebion.ir/channelsLogo/NTlmNTJkOGUyOTMwZjAxNmJhODAwMjdmYTkxNzM4NTIyZjg2ZWI4YTc4MTUzOThkMGEzNTI5N2ZkZjM0YTY3Ng/default" group-title="استانی",همدان
-https://ncdn.telewebion.ir/sina/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="فارس" tvg-logo="https://static.telewebion.ir/channelsLogo/177dcbe7-db46-45cb-956c-784bde0b4a2e/default" group-title="استانی",فارس
-https://ncdn.telewebion.ir/fars/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="گلخانه" tvg-logo="https://static.telewebion.ir/channelsLogo/686599d8-c1ee-4557-aa72-b1293a21906d/default" group-title="تلوبیون",گلخانه
-https://ncdn.telewebion.ir/golkhane/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رویا" tvg-logo="https://static.telewebion.ir/channelsLogo/0e3d7425-1a1b-47c4-b020-2e09a5fc2598/default" group-title="تلوبیون",رویا
-https://ncdn.telewebion.ir/iribu/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="لرستان" tvg-logo="https://static.telewebion.ir/channelsLogo/f44138b1-62ac-4c87-80c9-d20516ae2007/default" group-title="استانی",لرستان
-https://ncdn.telewebion.ir/aflak/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="تکیه مداحی " tvg-logo="https://static.telewebion.ir/channelsLogo/d602596d-7b8d-48ef-8f51-9344b4ac0eb6/default" group-title="تلوبیون",تکیه مداحی
-https://ncdn.telewebion.ir/tekyemadahi/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="دنا" tvg-logo="https://static.telewebion.ir/channelsLogo/ODZhMTE0Y2FmNzk4MzIxMTVhY2UxNjI0ZGY5MmI3Y2NhMzY3ZDE3ZDA4MjgzYmZhZTU2ODhjYmUyOGQ2ZTUzNw/default" group-title="استانی",دنا
-https://ncdn.telewebion.ir/dena/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="حبیب" tvg-logo="https://static.telewebion.ir/channelsLogo/MjZkMmQxOTAwOWU1MWVmZGMwZDlmMmE5MDk3NWM0ZTI5YTIzNjdhNzhlM2VjMzZjZDU0ZGY1NzBmY2QwM2JlNA/default" group-title="تلوبیون",حبیب
-https://ncdn.telewebion.ir/habib/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="لبیک" tvg-logo="https://static.telewebion.ir/channelsLogo/d02cfee1-9792-4112-bdfd-776e8e7c3ca6/default" group-title="تلوبیون",لبیک
-https://ncdn.telewebion.ir/labbayk/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="کرمان" tvg-logo="https://static.telewebion.ir/channelsLogo/ODE1YWIxNjcxYTU1NWM2YmJkYmRkNzE5OGJiOTQ0YmEyNzhjMDBkMGU2N2MwOTlhMGFjYzZhYjc1MjRjM2E5OA/default" group-title="استانی",کرمان
-https://ncdn.telewebion.ir/kerman/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="کردستان" tvg-logo="https://static.telewebion.ir/channelsLogo/ZTFiYWUwYTkzZmQ3OWU3Y2VmMzgwYTBiMGRjZTE5ZmFkOTUwNmY0N2JkNWNlZDRkMDZiMmQzYzhkOTZmZjIwNw/default" group-title="استانی",کردستان
-https://ncdn.telewebion.ir/kordestan/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رضوی" tvg-logo="https://static.telewebion.ir/channelsLogo/85f466a7-7d17-4ce8-bee6-13da4ff5deb1/default" group-title="تلوبیون",رضوی
-https://ncdn.telewebion.ir/razavi/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="پرس تی‌وی" tvg-logo="https://static.telewebion.ir/channelsLogo/efcb8d29-8ff5-47f7-926e-ad4a1a577c15/default" group-title="بین‌المللی",پرس تی‌وی
-https://ncdn.telewebion.ir/presstv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="یزد" tvg-logo="https://static.telewebion.ir/channelsLogo/MmVhYzA4YWU1NTkxMmIzNTE1MWY2MmM4YTE5OWQyMzRjZDViM2JhMWQ2MGU1NTIxMzNjMzYzNjYzYjMyYjMxOQ/default" group-title="استانی",یزد
-https://ncdn.telewebion.ir/taban/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="مثبت یک" tvg-logo="https://static.telewebion.ir/channelsLogo/1a4aba4f-bb6e-410c-b3e9-79dcf0136938/default" group-title="تلوبیون",مثبت یک
-https://ncdn.telewebion.ir/tv1plus/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="آفتاب" tvg-logo="https://static.telewebion.ir/channelsLogo/86b54cc3-4955-46c6-a0f5-9db1fe1160ae/default" group-title="استانی",آفتاب
-https://ncdn.telewebion.ir/aftab/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="خاوران" tvg-logo="https://static.telewebion.ir/channelsLogo/NWE2YjUwNDhlMTYwM2U4MjdjNjRhY2E0Yjg0NGYzMGYwMzBjN2E5OTNjNWViMjRhNWFlMWI0OTYwOWVmZGVhMA/default" group-title="استانی",خاوران
-https://ncdn.telewebion.ir/khavaran/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="تبرستان" tvg-logo="https://static.telewebion.ir/channelsLogo/ZWZlOGFhZWM3ZDI4MDVmZWVjZDhkNWJjMjliZDYwOGZiMDkyYTA2NzIzNTQ5NDBiYmU2NThiYzA4MDEwMWJlMQ/default" group-title="استانی",تبرستان
-https://ncdn.telewebion.ir/tabarestan/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="مهاباد" tvg-logo="https://static.telewebion.ir/channelsLogo/YmQyYmI3ZGY1YWQ4YjViODgyZGM5ZTQyOTI4NmM2MzBmNWMzMjM1MzQ2ZWYwMDg4NjQ1M2JiNTFiNjA3YjM2Zg/default" group-title="استانی",مهاباد
-https://ncdn.telewebion.ir/mahabad/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رادیو آوا" tvg-logo="https://static.telewebion.ir/channelsLogo/ODk2OGQ4OGUzODRiYTVkYTNkZTk1ODcxNDdmY2NhOTdjNjdiMmFjM2Q1NDljMzY5YjZkODFjZTU4MGQxNmE4YQ/default" group-title="تلوبیون",رادیو آوا
-https://ncdn.telewebion.ir/radioava/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رادیو گفتگو" tvg-logo="https://static.telewebion.ir/channelsLogo/YThmMDY0MTQ4MWEzNzdjNDUxNmJhZjdlODNjNWY4ODNkMmQzNDI4OTBhYjYyZDgyZDI0MDdlMzU4MTlmOWZmZQ/default" group-title="تلوبیون",رادیو گفتگو
-https://ncdn.telewebion.ir/radiogoftogo/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="قزوین" tvg-logo="https://static.telewebion.ir/channelsLogo/NzFjZGViYWEzZjFkYjVkZTc2MDE0NzBjZDA5N2E5YjZmNDFmNmI0YzA1YzgxMjQ0Y2U5MDQ1MmE5ODdiNzAwMw/default" group-title="استانی",قزوین
-https://ncdn.telewebion.ir/qazvin/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رادیو معارف" tvg-logo="https://static.telewebion.ir/channelsLogo/MzQ3NmE5NjZiYTY1Y2NjNTlmODk3ZmRjNDc1OTVjNWEyMTM5Mzc3MThiMjExYTU3Y2I5OGZlZDE5OThlNTE3MA/default" group-title="تلوبیون",رادیو معارف
-https://ncdn.telewebion.ir/radiomaaref/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ولایت" tvg-logo="https://static.telewebion.ir/channelsLogo/ae05de5b-9fe4-4012-900a-4d0763d6fafc/default" group-title="تلوبیون",ولایت
-https://ncdn.telewebion.ir/velayat/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="الکوثر" tvg-logo="https://static.telewebion.ir/channelsLogo/NGViODhkMWM0MzFiMzI4MDE0YWJmMDI3NDYzMmY0ZWRhMzJhMmEzODJmMjhlMjYwNjc2MjM3ZDkxNjlhNTg3Zg/default" group-title="بین‌المللی",الکوثر
-https://ncdn.telewebion.ir/kawthar/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رادیو قرآن " tvg-logo="https://static.telewebion.ir/channelsLogo/MDE1ZjBhNzk0ZDJlNjRmY2IyNGRmY2E2MDMzOGEwYTI4N2EwZTIwYWZmODBiNGZjODE4ZGYwNGM2YTVkNjdkYw/default" group-title="تلوبیون",رادیو قرآن
-https://ncdn.telewebion.ir/radioquran/live/playlist.m3u8
-#EXTINF:-1 tvg-id="family" tvg-name="Family" tvg-logo="https://www.persianagroup.tv/assets/logos/family.png" group-title="پرشیانا",Family
-https://familyhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="series" tvg-name="Series" tvg-logo="https://www.persianagroup.tv/assets/logos/series.png" group-title="پرشیانا",Series
 https://onehls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="العالم" tvg-logo="https://static.telewebion.ir/channelsLogo/0dbbf481-899d-484b-84cb-4c83c5aca4a0/default" group-title="بین‌المللی",العالم
-https://ncdn.telewebion.ir/alalam/live/playlist.m3u8
-#EXTINF:-1 tvg-id="korea" tvg-name="Korea" tvg-logo="https://www.persianagroup.tv/assets/logos/korea.png" group-title="پرشیانا",Korea
-https://korhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="cinema" tvg-name="Cinema" tvg-logo="https://www.persianagroup.tv/assets/logos/cinema.png" group-title="پرشیانا",Cinema
 https://cinehls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="comedy" tvg-name="Comedy" tvg-logo="https://www.persianagroup.tv/assets/logos/comedy.png" group-title="پرشیانا",Comedy
-https://comedyhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="iranian" tvg-name="Iranian" tvg-logo="https://www.persianagroup.tv/assets/logos/iranian.png" group-title="پرشیانا",Iranian
-https://irhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="family" tvg-name="Family" tvg-logo="https://www.persianagroup.tv/assets/logos/family.png" group-title="پرشیانا",Family
+https://familyhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="plus" tvg-name="Persiana+" tvg-logo="https://www.persianagroup.tv/assets/logos/plus.png" group-title="پرشیانا",Persiana+
 https://euhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="korea" tvg-name="Korea" tvg-logo="https://www.persianagroup.tv/assets/logos/korea.png" group-title="پرشیانا",Korea
+https://korhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="iranian" tvg-name="Iranian" tvg-logo="https://www.persianagroup.tv/assets/logos/iranian.png" group-title="پرشیانا",Iranian
+https://irhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="reality" tvg-name="Reality" tvg-logo="https://www.persianagroup.tv/assets/logos/reality.png" group-title="پرشیانا",Reality
 https://realhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="turkey" tvg-name="Türkiye" tvg-logo="https://www.persianagroup.tv/assets/logos/turkey.png" group-title="پرشیانا",Türkiye
-https://turkhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Iran International" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/iraninternational.default.svg" group-title="اخبار فارسی",ایران اینترنشنال
-https://live.livetvstream.co.uk/LS-63503-4/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رادیو ورزش" tvg-logo="https://static.telewebion.ir/channelsLogo/YjZlMmQyMmM3MDkxNmRkOTYwNWM3MDBmM2FmOGEyZWRjNTE5NjliN2Y2Njc5N2JlNjY4NTZmYTMzOWE2ZTc4Yw/default" group-title="تلوبیون",رادیو ورزش
-https://ncdn.telewebion.ir/radiovarzesh/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رادیو ایران" tvg-logo="https://static.telewebion.ir/channelsLogo/MGJkNGU4MTYzOWE3MGQ5NmU2ODk0Yzc5OGRhOTNjOTk2MTllNjAwYmYyMzE0NjUyMTg0ZDZhMTQwZDMzZDhhNQ/default" group-title="تلوبیون",رادیو ایران
-https://ncdn.telewebion.ir/radioiran/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رادیو اقتصاد" tvg-logo="https://static.telewebion.ir/channelsLogo/MjdiMjY4YzEzYmI2ZjY1OWQ1NzRlZGY2NTNiYzBkMTMxOTFjZDMyOWJmYWU1MGM1YTc1ODRlNDUwNTIyOGRlNA/default" group-title="تلوبیون",رادیو اقتصاد
-https://ncdn.telewebion.ir/radioeghtesad/live/playlist.m3u8
 #EXTINF:-1 tvg-id="medical" tvg-name="Medical" tvg-logo="https://www.persianagroup.tv/assets/logos/medical.png" group-title="پرشیانا",Medical
 https://phd2hls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="turkey" tvg-name="Türkiye" tvg-logo="https://www.persianagroup.tv/assets/logos/turkey.png" group-title="پرشیانا",Türkiye
+https://turkhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="comedy" tvg-name="Comedy" tvg-logo="https://www.persianagroup.tv/assets/logos/comedy.png" group-title="پرشیانا",Comedy
+https://comedyhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="docs" tvg-name="Docs" tvg-logo="https://www.persianagroup.tv/assets/logos/docs.png" group-title="پرشیانا",Docs
 https://scihls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BBC Persian" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/bbcpersian.default.svg" group-title="اخبار فارسی",بی‌بی‌سی فارسی
-https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/t=3840/v=pv14/b=5070016/main.m3u8
 #EXTINF:-1 tvg-id="junior" tvg-name="Junior" tvg-logo="https://www.persianagroup.tv/assets/logos/junior.png" group-title="پرشیانا",Junior
 https://junhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رادیو نمایش" tvg-logo="https://static.telewebion.ir/channelsLogo/ZmNjYWM4YWFkM2VhMmJiMWY1NzRhMWVmY2VlODljZWFmYWZiZGY4NWQ0OTAxYmU2YjQ3OGFlNjk0YTU1YTc4YQ/default" group-title="تلوبیون",رادیو نمایش
-https://ncdn.telewebion.ir/radionamayesh/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رادیو زیارت" tvg-logo="https://static.telewebion.ir/channelsLogo/MjRhZTBhMDU2YmJmMDVlN2RjNTAyZDMyMjc5ZTlmMDg4ZjU0ZDJiM2Y2Yzk3ZTMzMDY4YTQxNjdlNWY1NjJmMA/default" group-title="تلوبیون",رادیو زیارت
-https://ncdn.telewebion.ir/radioziarat/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رادیو تهران" tvg-logo="https://static.telewebion.ir/channelsLogo/6bd4f383-6b4d-45b6-b69c-5e030a93a042/default" group-title="تلوبیون",رادیو تهران
-https://ncdn.telewebion.ir/radiotehran/live/playlist.m3u8
 #EXTINF:-1 tvg-id="fight" tvg-name="Fight" tvg-logo="https://www.persianagroup.tv/assets/logos/fight.png" group-title="پرشیانا",Fight
 https://fighthls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="فلسطین" tvg-logo="https://static.telewebion.ir/channelsLogo/c60682d2-7f57-43d1-934d-268da20d1846/default" group-title="تلوبیون",فلسطین
-https://ncdn.telewebion.ir/palestine/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رادیو فرهنگ" tvg-logo="https://static.telewebion.ir/channelsLogo/2016a911-5b68-4e64-a68b-b130fc065546/default" group-title="تلوبیون",رادیو فرهنگ
-https://ncdn.telewebion.ir/radiofarhang/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رادیو جوان" tvg-logo="https://static.telewebion.ir/channelsLogo/YzFkOTVmNDI3NTI4MDkzYTEwMWQzNDIyNzhhZmM3NzhmMzc4MTExOTVjYzJmYzI1OWMwOTE5MzM0ZTVkZTVjYQ/default" group-title="تلوبیون",رادیو جوان
-https://ncdn.telewebion.ir/radiojavan/live/playlist.m3u8
 #EXTINF:-1 tvg-id="music" tvg-name="Music" tvg-logo="https://www.persianagroup.tv/assets/logos/music.png" group-title="پرشیانا",Music
 https://musichls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="nostalgia" tvg-name="Nostalgia" tvg-logo="https://www.persianagroup.tv/assets/logos/nostalgia.png" group-title="پرشیانا",Nostalgia
 https://noshls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رادیو صبا" tvg-logo="https://static.telewebion.ir/channelsLogo/NDAyZGMwOTgyNTZmMTNlNDRmNjJkMWUzZTlhNmEwMzJiODhmZmFiNTIzZDRiMTVhNDA0MDZlYTljOGM3Y2MyNQ/default" group-title="تلوبیون",رادیو صبا
-https://ncdn.telewebion.ir/radiosaba/live/playlist.m3u8
 #EXTINF:-1 tvg-id="folk" tvg-name="Folk" tvg-logo="https://www.persianagroup.tv/assets/logos/folk.png" group-title="پرشیانا",سنتی
 https://sonhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="VOA Persian" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/voapersian.default.png" group-title="اخبار فارسی",صدای آمریکا
-https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8
 #EXTINF:-1 tvg-id="setmix" tvg-name="SetMix" tvg-logo="https://www.persianagroup.tv/assets/logos/setmix.png" group-title="پرشیانا",SetMix
 https://setmixhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="English Club TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/englishclubtv.default.png" group-title="پرشیانا",English Club TV
 https://dash2.antik.sk/live/test_ectv_hd_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="kurd4" tvg-name="4 Kurd" tvg-logo="https://www.persianagroup.tv/assets/logos/kurd4.png" group-title="پرشیانا",4 Kurd
 https://4kuhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Radio Farda TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/radiofarda.default.svg" group-title="اخبار فارسی",رادیو فردا TV
-https://rferl-ingest.akamaized.net/hls/live/2121768/tvmc01/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DEJ TV" tvg-logo="https://www.parsatv.com/index_files/channels/dejtv.jpg" group-title="اخبار فارسی",دژ
-https://rdejhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رادیو سلامت" tvg-logo="https://static.telewebion.ir/channelsLogo/MTFkZDZlMWM2OTJlYWJiZDFkMWZjZTc2ZmRjYmJiODhlOTUzNWZiN2MzYWFhNGExOTk4ZjBhYzA3ZmEwOGY4Mw/default" group-title="تلوبیون",رادیو سلامت
-https://ncdn.telewebion.ir/radiosalamat/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رادیو پیام" tvg-logo="https://static.telewebion.ir/channelsLogo/OGRiM2I1ZjY3ZmNlOTdlMTgwYjk1MTg1YWY3MDYyYWIwMzZiYzJjNzgzNTViYTIzYWMwNTg3MzFlYjRmZTNhNQ/default" group-title="تلوبیون",رادیو پیام
-https://ncdn.telewebion.ir/radiopayam/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="رادیو ترتیل" tvg-logo="https://static.telewebion.ir/channelsLogo/YjAxZWZlYzljYTdkOGUwY2FkMjIzZjUzM2EyODkwMDkwMmQzOGViODAzYTFlYWMyZTlkYjIyNzI3YzZhZGVmNg/default" group-title="تلوبیون",رادیو ترتیل
-https://ncdn.telewebion.ir/radiotartil/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Didgah TV" tvg-logo="https://www.parsatv.com/index_files/channels/didgahtv.png" group-title="اخبار فارسی",دیدگاه
-https://media.streambrothers.com:1936/8276/8276/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Pars TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/parstv.default.svg" group-title="اخبار فارسی",پارس
-https://parshls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="MelliG TV" tvg-logo="https://www.parsatv.com/index_files/channels/melligtv.jpg" group-title="اخبار فارسی",ملی گرا
-https://mellihls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Revolution TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/irannationalrevolutiontv.default.png" group-title="اخبار فارسی",ایران ملی Revolution
-https://hls.irannrtv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BBC Persian" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/bbcpersian.default.svg" group-title="اخبار فارسی",بی‌بی‌سی فارسی
+https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/t=3840/v=pv14/b=5070016/main.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="London Persian Radio" tvg-logo="https://www.parsatv.com/index_files/channels/lprradio.jpg" group-title="رادیو فارسی",رادیو لندن LPR
 https://free.rcast.net/247794
-#EXTINF:-1 tvg-id="" tvg-name="Khabarbin TV" tvg-logo="https://www.parsatv.com/index_files/channels/khabarbin.png" group-title="اخبار فارسی",خبربین
-https://khbhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Mihan TV" tvg-logo="https://www.parsatv.com/index_files/channels/mihantv.jpg" group-title="اخبار فارسی",میهن
+https://iptv.mihantv.com/mihantv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Radio Yar" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/radioyar.default.png" group-title="رادیو فارسی",رادیو یار
 https://shoutcast.glwiz.com/RadioYAR.mp3
+#EXTINF:-1 tvg-id="" tvg-name="DEJ TV" tvg-logo="https://www.parsatv.com/index_files/channels/dejtv.jpg" group-title="اخبار فارسی",دژ
+https://rdejhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MelliG TV" tvg-logo="https://www.parsatv.com/index_files/channels/melligtv.jpg" group-title="اخبار فارسی",ملی گرا
+https://mellihls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Iran International" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/iraninternational.default.svg" group-title="اخبار فارسی",ایران اینترنشنال
+https://live.livetvstream.co.uk/LS-63503-4/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Pars TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/parstv.default.svg" group-title="اخبار فارسی",پارس
+https://parshls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Radio Farda TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/radiofarda.default.svg" group-title="اخبار فارسی",رادیو فردا TV
+https://rferl-ingest.akamaized.net/hls/live/2121768/tvmc01/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Revolution TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/irannationalrevolutiontv.default.png" group-title="اخبار فارسی",ایران ملی Revolution
+https://hls.irannrtv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kanal Jadid" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/kanaljadid.default.svg" group-title="اخبار فارسی",کانال جدید
 https://kjhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="T2 TV" tvg-logo="https://www.parsatv.com/index_files/channels/t2tv.jpg" group-title="شبکه‌های فارسی",T2
-https://t2hls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Woman TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/zantv.default.svg" group-title="اخبار فارسی",زن TV
 https://wmtvhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Tapesh" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/pbctapesh.default.png" group-title="شبکه‌های فارسی",تپش
-https://maxtvhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="4U TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/4utv.default.png" group-title="شبکه‌های فارسی",4U TV
-https://hls.4utv.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PMC Royale" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/pmc.default.svg" group-title="شبکه‌های فارسی",PMC Royale
-https://pmcrohls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Net TV" tvg-logo="https://www.parsatv.com/index_files/channels/nettv.png" group-title="شبکه‌های فارسی",نت TV
-https://eplhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PMC" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/pmc.default.svg" group-title="شبکه‌های فارسی",PMC
 https://pmchls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Tapesh" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/pbctapesh.default.png" group-title="شبکه‌های فارسی",تپش
+https://maxtvhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="T2 TV" tvg-logo="https://www.parsatv.com/index_files/channels/t2tv.jpg" group-title="شبکه‌های فارسی",T2
+https://t2hls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Khabarbin TV" tvg-logo="https://www.parsatv.com/index_files/channels/khabarbin.png" group-title="اخبار فارسی",خبربین
+https://khbhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="4U TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/4utv.default.png" group-title="شبکه‌های فارسی",4U TV
+https://hls.4utv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Net TV" tvg-logo="https://www.parsatv.com/index_files/channels/nettv.png" group-title="شبکه‌های فارسی",نت TV
+https://eplhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sun Music" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/sunmusic.default.png" group-title="شبکه‌های فارسی",سان موزیک
 https://hls.sunmusic.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Navahang TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/navahang.default.svg" group-title="شبکه‌های فارسی",نواهنگ
 https://simahls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Novin TV" tvg-logo="https://www.parsatv.com/index_files/channels/novintv.png" group-title="اخبار فارسی",نوین
-https://stream.novin.live/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="PMC Royale" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/pmc.default.svg" group-title="شبکه‌های فارسی",PMC Royale
+https://pmcrohls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Iran International Radio" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/iraninternationalradio.default.png" group-title="رادیو فارسی",رادیو ایران اینترنشنال
+https://radio.iraninternational.app/iintl_c
+#EXTINF:-1 tvg-id="" tvg-name="Radio Mihan" tvg-logo="https://www.parsatv.com/index_files/channels/mihantv.jpg" group-title="رادیو فارسی",رادیو میهن
+https://radio.mihantv.com/mihan
+#EXTINF:-1 tvg-id="" tvg-name="VOA Persian" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/voapersian.default.png" group-title="اخبار فارسی",صدای آمریکا
+https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Avang TV" tvg-logo="https://www.parsatv.com/index_files/channels/avang.png" group-title="شبکه‌های فارسی",آوانگ
 https://hls.avang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Radio Javan TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/radiojavan.default.svg" group-title="شبکه‌های فارسی",رادیو جوان TV
 https://rjtvhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="France 24 EN" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/france24.default.svg" group-title="شبکه‌های خارجی",France 24 EN
+https://a-cdn.klowdtv.com/live2/france24_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Iranian Congress" tvg-logo="https://www.parsatv.com/index_files/channels/iraniancongress.jpg" group-title="رادیو فارسی",کنگره ایرانیان
 https://stream.zenolive.com/kbt00r580feuv
-#EXTINF:-1 tvg-id="" tvg-name="نصف جهان" tvg-logo="https://static.telewebion.ir/channelsLogo/b7e08873-2f50-4d6b-86cf-e4be4177852c/default" group-title="تلوبیون",نصف جهان
-https://ncdn.telewebion.ir/nesfejahan/live/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Mihan TV" tvg-logo="https://www.parsatv.com/index_files/channels/mihantv.jpg" group-title="اخبار فارسی",میهن
-https://iptv.mihantv.com/mihantv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Israel Pars TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/israelparstv.default.png" group-title="اخبار فارسی",اسرائیل پارس
-https://live.pars-israel.com/tmp_hls/iptv/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Radio Shemroon" tvg-logo="https://www.parsatv.com/index_files/channels/radioshemroon.jpg" group-title="رادیو فارسی",رادیو شمرون
 https://s35.myradiostream.com/33640/listen.mp3
-#EXTINF:-1 tvg-id="" tvg-name="Radio Mihan" tvg-logo="https://www.parsatv.com/index_files/channels/mihantv.jpg" group-title="رادیو فارسی",رادیو میهن
-https://radio.mihantv.com/mihan
-#EXTINF:-1 tvg-id="" tvg-name="CBS News" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/cbsnews.default.svg" group-title="شبکه‌های خارجی",CBS News
-https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Iran International Radio" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/iraninternationalradio.default.png" group-title="رادیو فارسی",رادیو ایران اینترنشنال
-https://radio.iraninternational.app/iintl_c
+#EXTINF:-1 tvg-id="" tvg-name="Radio Farda" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/radiofarda.default.svg" group-title="رادیو فارسی",رادیو فردا
+https://stream.radiojar.com/cp13r2cpn3quv
+#EXTINF:-1 tvg-id="" tvg-name="Radio Hamrah" tvg-logo="https://www.parsatv.com/index_files/channels/radiohamrah.jpg" group-title="رادیو فارسی",رادیو همراه
+https://stream-148.zeno.fm/nezaycc28vzuv
+#EXTINF:-1 tvg-id="" tvg-name="Israel Pars TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/israelparstv.default.png" group-title="اخبار فارسی",اسرائیل پارس
+https://live.pars-israel.com/tmp_hls/iptv/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="DW News" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/dwdeutschewelle.default.svg" group-title="شبکه‌های خارجی",DW News
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Radio Shoma" tvg-logo="https://www.parsatv.com/index_files/channels/radioshoma.png" group-title="رادیو فارسی",رادیو شما
 https://stream.radiojar.com/rzcfw4cbsxquv
 #EXTINF:-1 tvg-id="" tvg-name="Newsmax TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/newsmax.default.svg" group-title="شبکه‌های خارجی",Newsmax
 https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DW News" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/dwdeutschewelle.default.svg" group-title="شبکه‌های خارجی",DW News
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Radio Farda" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/radiofarda.default.svg" group-title="رادیو فارسی",رادیو فردا
-https://stream.radiojar.com/cp13r2cpn3quv
-#EXTINF:-1 tvg-id="" tvg-name="WION" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/wion.default.svg" group-title="شبکه‌های خارجی",WION
-https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TRT World" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/trtworld.default.svg" group-title="شبکه‌های خارجی",TRT World
-https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="CBS News" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/cbsnews.default.svg" group-title="شبکه‌های خارجی",CBS News
+https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NHK World" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/nhkworld.default.svg" group-title="شبکه‌های خارجی",NHK World
 https://nhk.lls.pbs.org/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Al Arabiya" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Al_Arabiya_Logo.png/320px-Al_Arabiya_Logo.png" group-title="شبکه‌های خارجی",Al Arabiya
 https://av.alarabiya.net/alarabiapublish/alarabiya_1080p/chunks.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="France 24 EN" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/france24.default.svg" group-title="شبکه‌های خارجی",France 24 EN
-https://a-cdn.klowdtv.com/live2/france24_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Al Jazeera Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Al_Jazeera_English_channel_logo.svg/320px-Al_Jazeera_English_channel_logo.svg.png" group-title="شبکه‌های خارجی",Al Jazeera Arabic
-https://live-hls-web-aja.getaj.net/AJA/01.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/bloomberg.default.svg" group-title="شبکه‌های خارجی",Bloomberg
-https://liveproduseast.global.ssl.fastly.net/us/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Radio Hamrah" tvg-logo="https://www.parsatv.com/index_files/channels/radiohamrah.jpg" group-title="رادیو فارسی",رادیو همراه
-https://stream-148.zeno.fm/nezaycc28vzuv
-#EXTINF:-1 tvg-id="" tvg-name="Travelxp" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/travelxp.default.svg" group-title="شبکه‌های خارجی",Travelxp
-https://27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_TravelXP/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Radio Bamdad" tvg-logo="https://www.parsatv.com/index_files/channels/radiobamdad.jpg" group-title="رادیو فارسی",رادیو بامداد
-https://s3.radio.co/sd07c718f1/listen
 #EXTINF:-1 tvg-id="" tvg-name="CGTN English" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/cgtn.default.svg" group-title="شبکه‌های خارجی",CGTN English
 https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="True-Crime" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/truecrime.default.svg" group-title="شبکه‌های خارجی",True-Crime
-https://amg00376-magellan-amg00376c11-rakuten-us-1700.playouts.now.amagi.tv/playlist/amg00376-magellantv-truecrimenowww-rakutenus/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Miami TV" tvg-logo="https://www.parsatv.com/index_files/channels/miamitv.png" group-title="شبکه‌های خارجی",Miami TV
-https://59ec5453559f0.streamlock.net/miamitv/smil:WEB4141/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Al Jazeera Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Al_Jazeera_English_channel_logo.svg/320px-Al_Jazeera_English_channel_logo.svg.png" group-title="شبکه‌های خارجی",Al Jazeera Arabic
+https://live-hls-web-aja.getaj.net/AJA/01.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PMC Select" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/pmc.default.svg" group-title="رادیو فارسی",PMC Select
 https://s5.radio.co/sf0a1af54c/listen
-#EXTINF:-1 tvg-id="" tvg-name="RFI Farsi" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/radiofranceinternationalpersia.default.png" group-title="رادیو فارسی",RFI فارسی
-https://rfipersan96k.ice.infomaniak.ch/rfipersan-96k.mp3
-#EXTINF:-1 tvg-id="" tvg-name="Net TV" tvg-logo="https://www.parsatv.com/index_files/channels/nettv.png" group-title="همه",نت TV
-https://nethls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AfraFilm.ir@SD",Afra Film group-title="فیلم و موسیقی"
-https://afrafhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ClassicTV.ir@SD",Classic TV group-title="فیلم و موسیقی"
-https://clshls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Navahang TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/navahang.default.svg" group-title="همه",نواهنگ
-https://hls.navahang.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="CafeFilm.ir@SD",Cafe Film group-title="فیلم و موسیقی"
-https://cafefhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="MBC Persia" tvg-logo="https://www.aparatchi.com/images/chanells-logo/mbcpersia.svg" group-title="جم تی وی",MBC Persia
-https://hls.mbcpersia.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="MetaFilmTV.ir@SD",Meta Film TV group-title="فیلم و موسیقی"
-https://metafilmhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BBC-Earth" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/bbcearth.default.svg" group-title="شبکه‌های خارجی",BBC-Earth
-https://amg00793-amg00793c6-firetv-us-4067.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Radio Novin" tvg-logo="https://www.parsatv.com/index_files/channels/radionovin.png" group-title="رادیو فارسی",رادیو نوین
-https://radio.novin.live/live
+#EXTINF:-1 tvg-id="" tvg-name="Travelxp" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/travelxp.default.svg" group-title="شبکه‌های خارجی",Travelxp
+https://27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_TravelXP/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Aljazeera English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Al_Jazeera_English_Logo.png/320px-Al_Jazeera_English_Logo.png" group-title="شبکه‌های خارجی",الجزیره انگلیسی
 https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Miami TV" tvg-logo="https://www.parsatv.com/index_files/channels/miamitv.png" group-title="شبکه‌های خارجی",Miami TV
+https://59ec5453559f0.streamlock.net/miamitv/smil:WEB4141/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="WION" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/wion.default.svg" group-title="شبکه‌های خارجی",WION
+https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RFI Farsi" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/radiofranceinternationalpersia.default.png" group-title="رادیو فارسی",RFI فارسی
+https://rfipersan96k.ice.infomaniak.ch/rfipersan-96k.mp3
+#EXTINF:-1 tvg-id="" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/bloomberg.default.svg" group-title="شبکه‌های خارجی",Bloomberg
+https://liveproduseast.global.ssl.fastly.net/us/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TRT World" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/trtworld.default.svg" group-title="شبکه‌های خارجی",TRT World
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Net TV" tvg-logo="https://www.parsatv.com/index_files/channels/nettv.png" group-title="همه",نت TV
+https://nethls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ABC News" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/abcnews.default.svg" group-title="شبکه‌های خارجی",ABC News
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="True-Crime" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/truecrime.default.svg" group-title="شبکه‌های خارجی",True-Crime
+https://amg00376-magellan-amg00376c11-rakuten-us-1700.playouts.now.amagi.tv/playlist/amg00376-magellantv-truecrimenowww-rakutenus/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Navahang TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/navahang.default.svg" group-title="همه",نواهنگ
+https://hls.navahang.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AfraFilm.ir@SD",Afra Film group-title="فیلم و موسیقی"
+https://afrafhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Radio Novin" tvg-logo="https://www.parsatv.com/index_files/channels/radionovin.png" group-title="رادیو فارسی",رادیو نوین
+https://radio.novin.live/live
+#EXTINF:-1 tvg-id="CafeFilm.ir@SD",Cafe Film group-title="فیلم و موسیقی"
+https://cafefhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ClassicTV.ir@SD",Classic TV group-title="فیلم و موسیقی"
+https://clshls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="MetaFilmTV.ir@SD",Meta Film TV group-title="فیلم و موسیقی"
+https://metafilmhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Didgah TV" tvg-logo="https://www.parsatv.com/index_files/channels/didgahtv.png" group-title="اخبار فارسی",دیدگاه
+https://media.streambrothers.com:1936/8276/8276/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MBC Persia" tvg-logo="https://www.aparatchi.com/images/chanells-logo/mbcpersia.svg" group-title="جم تی وی",MBC Persia
+https://hls.mbcpersia.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Radio Bamdad" tvg-logo="https://www.parsatv.com/index_files/channels/radiobamdad.jpg" group-title="رادیو فارسی",رادیو بامداد
+https://s3.radio.co/sd07c718f1/listen
 #EXTINF:-1 tvg-id="" tvg-name="BBC News" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/bbcworldnews.default.svg" group-title="شبکه‌های خارجی",BBC News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="iFilm English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/IFilm_Logo.png/320px-IFilm_Logo.png" group-title="شبکه‌های خارجی",آی‌فیلم انگلیسی
 https://live.presstv.ir/hls/ifilmen.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ABC News" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/abcnews.default.svg" group-title="شبکه‌های خارجی",ABC News
-https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="iFilm Farsi" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/ifilm.default.svg" group-title="همه",آی‌فیلم فارسی
-https://live.presstv.ir/hls/ifilmfa.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BBC-Earth" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/bbcearth.default.svg" group-title="شبکه‌های خارجی",BBC-Earth
+https://amg00793-amg00793c6-firetv-us-4067.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Press TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/presstv.default.svg" group-title="شبکه‌های خارجی",پرس TV
 https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="iFilm Farsi" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/ifilm.default.svg" group-title="همه",آی‌فیلم فارسی
+https://live.presstv.ir/hls/ifilmfa.m3u8
 #EXTINF:-1 tvg-id="iFilm2.ir@SD",iFilm 2 group-title="فیلم و موسیقی"
 https://live.presstv.ir/hls/ifilm2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Press TV" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/presstv.default.svg" group-title="همه",پرس TV
 https://live.presstv.ir/hls/presstv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Russia Today" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/russiatoday.default.svg" group-title="شبکه‌های خارجی",Russia Today
-https://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="iFilmArabic.ir@SD",iFilm Arabic group-title="فیلم و موسیقی"
 https://live.presstv.ir/hls/ifilmar.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KIRN 670" tvg-logo="https://www.parsatv.com/index_files/channels/kirn.jpg" group-title="رادیو فارسی",KIRN 670
 https://ice41.securenetsystems.net/KIRN
-#EXTINF:-1 tvg-id="" tvg-name="Kan 11" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/kan11.default.svg" group-title="شبکه‌های خارجی",Kan 11
-https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8?renditions
+#EXTINF:-1 tvg-id="" tvg-name="Russia Today" tvg-logo="https://raw.githubusercontent.com/picons/picons/master/build-source/logos/russiatoday.default.svg" group-title="شبکه‌های خارجی",Russia Today
+https://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8
 
 ## --- MBC ---
 #EXTINF:-1 tvg-id="MBCPersia.ae" tvg-logo="" group-title="MBC",MBC Persia (720p)
 https://hls.mbcpersia.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="MBC4.ae" tvg-logo="" group-title="MBC",MBC 4
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8
-#EXTINF:-1 tvg-id="MBC5.ae" tvg-logo="" group-title="MBC",MBC 5
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8
 #EXTINF:-1 tvg-id="MBCBollywood.ae" tvg-logo="" group-title="MBC",MBC Bollywood
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8
-#EXTINF:-1 tvg-id="MBCDrama.ae" tvg-logo="" group-title="MBC",MBC Drama
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8
-#EXTINF:-1 tvg-id="MBCPersia.ae" tvg-logo="" group-title="MBC",MBC Persia
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8
 #EXTINF:-1 tvg-id="MBCPlusDrama.sa" tvg-logo="" group-title="MBC",MBC+ Drama
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8
-#EXTINF:-1 tvg-id="MBCMasrDrama.sa" tvg-logo="" group-title="MBC",MBC Masr Drama
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8
+#EXTINF:-1 tvg-id="MBCPersia.ae" tvg-logo="" group-title="MBC",MBC Persia
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8
+#EXTINF:-1 tvg-id="MBCDrama.ae" tvg-logo="" group-title="MBC",MBC Drama
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8
 #EXTINF:-1 tvg-id="MBCMood.sa" tvg-logo="" group-title="MBC",MBC Mood
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-mood/78367bf48ccdba501d0d014a10c21031/index.m3u8
+#EXTINF:-1 tvg-id="MBC5.ae" tvg-logo="" group-title="MBC",MBC 5
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8
+#EXTINF:-1 tvg-id="MBCMasrDrama.sa" tvg-logo="" group-title="MBC",MBC Masr Drama
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8
 #EXTINF:-1 tvg-id="MBC1.ae" tvg-logo="" group-title="MBC",MBC 1
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8
-#EXTINF:-1 tvg-id="MBCFM.ae" tvg-logo="" group-title="MBC",MBC FM
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-fm/3f36f7db6086acf058dc51681c87f8ad/index.m3u8
 
 ## --- Premium HD ---
 #EXTINF:-1 tvg-id="GravitasMovies.us@SD" tvg-logo="https://i.imgur.com/H2hD4vT.png" group-title="Movies HD",Gravitas Movies (1080p)
 https://d6dg3ebeih71x.cloudfront.net/Gravitas_Movies.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",FOX Sports (1080p)
-https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Leaderboard Sports News (1080p)
-https://amg02703-amg02703c20-samsung-au-9093.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="INTRAVEL.nl@Philippines" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Intravel.png" group-title="Travel HD",InTravel (1080p)
-https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="beINSPORTSXTRAenEspanol.us@SD" tvg-logo="https://i.imgur.com/V562tpO.png" group-title="Sports HD",beIN Sports XTRA en Espanol (1080p)
-https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
 #EXTINF:-1 tvg-id="FuboSportsNetwork.us@SD" tvg-logo="https://i.imgur.com/qFNRJLb.png" group-title="Sports HD",fubo Sports Network (1080p)
 https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
-#EXTINF:-1 tvg-id="AS3SportTV.ve@SD" tvg-logo="https://i.ibb.co/bRmGbsyV/A3-SPORTTV.jpg" group-title="Sports HD",AS3 Sport TV (1080p)
-https://streamtv.as3sport.online:3394/hybrid/play.m3u8
-#EXTINF:-1 tvg-id="CGTNDocumentary.cn@SD" tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Documentary HD",CGTN Documentary (1080p)
-https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Lifetime Movies (1080p)
-https://amg00276-amg00276c21-samsung-gb-5270.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BBC HD",BBC Top Gear Germany (1080p)
-https://amg00793-amg00793c44-rakuten-de-5538.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Cowboy Movie Channel (1080p)
-https://streams2.sofast.tv/sofastplayout/32eb332e-f644-46e5-ad91-e55ad80d14f7_0_HLS/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",FOX Sports (1080p)
+https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports.m3u8
+#EXTINF:-1 tvg-id="beINSPORTSXTRAenEspanol.us@SD" tvg-logo="https://i.imgur.com/V562tpO.png" group-title="Sports HD",beIN Sports XTRA en Espanol (1080p)
+https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
 #EXTINF:-1 tvg-id="FilAmTVNetwork.us@HD" tvg-logo="https://i.imgur.com/nRiApdI.png" group-title="Music HD",FilAmTV Network (1080p)
 https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
-#EXTINF:-1 tvg-id="BBCDrama.uk@Spain" tvg-logo="https://i.imgur.com/HctHhLL.png" group-title="BBC HD",BBC Drama (1080p)
-https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Lifetime Movies Love & Drama (1080p)
-https://d1s7megtamek6r.cloudfront.net/Lifetime_Love_and_Drama.m3u8
-#EXTINF:-1 tvg-id="BloombergOriginals.us@US" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" group-title="News HD",Bloomberg Originals (1080p)
-https://bloomberg.com/media-manifest/streams/qt.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",FilmGold Germany (1080p)
-https://mainstreamfilmgold-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="BBCHomeGarden.us@SD" tvg-logo="https://i.imgur.com/rC0pi1D.png" group-title="BBC HD",BBC Home & Garden (1080p)
-https://d11r33s5i066xh.cloudfront.net/playlist.m3u8
-#EXTINF:-1 tvg-id="KTVSport.kw@SD" tvg-logo="https://i.imgur.com/R1hGX1d.png" group-title="Sports HD",KTV Sport (1080p)
-https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="MovieSphere.us@US" tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="Movies HD",MovieSphere (1080p)
-https://amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BBC HD",BBC Top Gear Italy (1080p)
-https://amg00793-amg00793c43-rakuten-it-5537.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Travel HD",4K Travel TV (1080p)
-https://streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8
+#EXTINF:-1 tvg-id="AS3SportTV.ve@SD" tvg-logo="https://i.ibb.co/bRmGbsyV/A3-SPORTTV.jpg" group-title="Sports HD",AS3 Sport TV (1080p)
+https://streamtv.as3sport.online:3394/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="BBCFood.us@SD" tvg-logo="https://i.imgur.com/kcmHcSx.png" group-title="BBC HD",BBC Food (1080p)
 https://d1e9r0b71zfwk7.cloudfront.net/playlist.m3u8
-#EXTINF:-1 tvg-id="BBCEarth.uk@US" tvg-logo="https://i.imgur.com/nGSsUd4.png" group-title="BBC HD",BBC Earth (1080p)
-https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
-#EXTINF:-1 tvg-id="MyTimeMovieNetwork.uk@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies HD",MyTime Movie Network (1080p)
-https://appletree-mytimeuk-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BBC HD",BBC Top Gear Finland (1080p)
-https://amg00793-amg00793c49-rakuten-fi-5848.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="MovieSphere.us@UK" tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="Movies HD",MovieSphere UK (1080p)
-https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="DDSports.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540" group-title="Sports HD",DD Sports SD (1080p)
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BBC HD",BBC Drama Italy (1080p)
-https://amg00793-amg00793c41-rakuten-it-5445.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="MyTimeMovieNetworkEast.us@SD" tvg-logo="https://i.imgur.com/HYgxPVQ.png" group-title="Movies HD",MyTime Movie Network (1080p)
-https://appletree-mytimeau-samsung.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="NBCSportsNOW.us@SD" tvg-logo="https://i.imgur.com/EzNf2Yx.png" group-title="Sports HD",NBC Sports NOW (1080p)
-https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Genie K Movie (1080p)
-https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=US200001137&channel_id=newid_350&tp=samsung_tvplus
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Mytime Movies (1080p)
-https://mytimefrance-rakuten-samsung.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",MyTime Movie Network France (1080p)
-https://mytimemoviefrance-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="MyTimeMovieNetwork.es@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies HD",MyTime movie network Spain (1080p)
-https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCHomeGarden.us@SD" tvg-logo="https://i.imgur.com/rC0pi1D.png" group-title="BBC HD",BBC Home & Garden (1080p)
+https://d11r33s5i066xh.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Lifetime Movies Love & Drama (1080p)
+https://d1s7megtamek6r.cloudfront.net/Lifetime_Love_and_Drama.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BBC HD",BBC Top Gear Germany (1080p)
+https://amg00793-amg00793c44-rakuten-de-5538.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Lifetime Movies (1080p)
+https://amg00276-amg00276c21-samsung-gb-5270.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BloombergOriginals.us@US" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" group-title="News HD",Bloomberg Originals (1080p)
+https://bloomberg.com/media-manifest/streams/qt.m3u8
 #EXTINF:-1 tvg-id="HLAQDTV.kr@SD" tvg-logo="https://i.imgur.com/FGsKCH3.png" group-title="Premium HD",MBC Gangwon (MBC 강원영동) (1080p) [Not 24/7]
 http://123.254.93.7:1935/tvlive/livestream2/playlist.m3u8
-#EXTINF:-1 tvg-id="PBSTravel.us@SD" tvg-logo="https://i.imgur.com/A6GXhta.png" group-title="Travel HD",PBS Travel (1080p)
-https://d3hqevbyoxtkoi.cloudfront.net/PBS_Travel.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",OUTflix Movies (1080p)
-https://dg37ei3o66x3s.cloudfront.net/OutTV_US.m3u8
-#EXTINF:-1 tvg-id="MBCFM.ae@SD" tvg-logo="https://i.imgur.com/lF8UxvR.png" group-title="Premium HD",MBC FM (1080p)
-https://dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",MyTime Movie Network Germany (1080p)
-https://appletree-mytimemoviegerman-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BBC HD",BBC Top Gear France (1080p)
-https://amg00793-amg00793c45-rakuten-fr-5539.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="MTVSpankinNew.us@US" tvg-logo="https://i.imgur.com/thbvJd1.png" group-title="Music HD",MTV Spankin’ New (1080p)
-https://jmp2.uk/plu-6541010f770cf1000866be98.m3u8
-#EXTINF:-1 tvg-id="MTVBiggestPop.us@US" tvg-logo="https://i.imgur.com/AOaZmlS.png" group-title="Music HD",MTV Biggest Pop (1080p)
-https://jmp2.uk/plu-65410176770cf1000866bf31.m3u8
-#EXTINF:-1 tvg-id="WillowSports.us@HD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" group-title="Sports HD",Willow Sports (1080p)
-https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8
-#EXTINF:-1 tvg-id="MMTV.mv@SD" tvg-logo="https://i.imgur.com/21tpl5b.png" group-title="Music HD",MMTV (1080p)
-https://sendlive.online/hls/mmtv.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Sports First (1080p)
-https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8
-#EXTINF:-1 tvg-id="SUMtvEnglish.us@SD" tvg-logo="https://i.imgur.com/hp1rJjX.png" group-title="Music HD",SUMtv English (1080p)
-https://bozztv.com/uni10rtmp/ssstv1-cdn/smil:ssstv1web.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="MovieSphere.us@US" tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="Movies HD",MovieSphere (1080p)
+https://amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Travel HD",4K Travel TV (1080p)
+https://streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8
 #EXTINF:-1 tvg-id="MTVBiggestPop.us@Brazil" tvg-logo="https://i.imgur.com/AOaZmlS.png" group-title="Music HD",MTV Biggest Pop (1080p)
 https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8
-#EXTINF:-1 tvg-id="SUMtvLatino.us@SD" tvg-logo="https://i.imgur.com/ZObFN8Z.png" group-title="Music HD",SUMtv Latino (1080p)
-https://bozztv.com/uni10rtmp/ssstv2-cdn/smil:ssstv2web.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="MTVBiggestPop.us@US" tvg-logo="https://i.imgur.com/AOaZmlS.png" group-title="Music HD",MTV Biggest Pop (1080p)
+https://jmp2.uk/plu-65410176770cf1000866bf31.m3u8
+#EXTINF:-1 tvg-id="MMTV.mv@SD" tvg-logo="https://i.imgur.com/21tpl5b.png" group-title="Music HD",MMTV (1080p)
+https://sendlive.online/hls/mmtv.m3u8
+#EXTINF:-1 tvg-id="MTVSpankinNew.us@US" tvg-logo="https://i.imgur.com/thbvJd1.png" group-title="Music HD",MTV Spankin’ New (1080p)
+https://jmp2.uk/plu-6541010f770cf1000866be98.m3u8
+#EXTINF:-1 tvg-id="INTRAVEL.nl@Philippines" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Intravel.png" group-title="Travel HD",InTravel (1080p)
+https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Cowboy Movie Channel (1080p)
+https://streams2.sofast.tv/sofastplayout/32eb332e-f644-46e5-ad91-e55ad80d14f7_0_HLS/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Genie K Movie (1080p)
+https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=US200001137&channel_id=newid_350&tp=samsung_tvplus
+#EXTINF:-1 tvg-id="BBCDrama.uk@Spain" tvg-logo="https://i.imgur.com/HctHhLL.png" group-title="BBC HD",BBC Drama (1080p)
+https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MovieSphere.us@UK" tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="Movies HD",MovieSphere UK (1080p)
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",FilmGold Germany (1080p)
+https://mainstreamfilmgold-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BBC HD",BBC Top Gear Finland (1080p)
+https://amg00793-amg00793c49-rakuten-fi-5848.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Leaderboard Sports News (1080p)
+https://amg02703-amg02703c20-samsung-au-9093.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BBC HD",BBC Top Gear France (1080p)
+https://amg00793-amg00793c45-rakuten-fr-5539.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CGTNDocumentary.cn@SD" tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Documentary HD",CGTN Documentary (1080p)
+https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BBC HD",BBC Drama Italy (1080p)
+https://amg00793-amg00793c41-rakuten-it-5445.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BBC HD",BBC Top Gear Italy (1080p)
+https://amg00793-amg00793c43-rakuten-it-5537.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="alphaCinema.ru@HD" tvg-logo="https://i.imgur.com/146OgfU.png" group-title="Movies HD",alpha Cinema (1080p)
+https://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
+#EXTINF:-1 tvg-id="DDSports.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540" group-title="Sports HD",DD Sports SD (1080p)
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
+#EXTINF:-1 tvg-id="MyTimeMovieNetwork.uk@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies HD",MyTime Movie Network (1080p)
+https://appletree-mytimeuk-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCEarth.uk@US" tvg-logo="https://i.imgur.com/nGSsUd4.png" group-title="BBC HD",BBC Earth (1080p)
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",OUTflix Movies (1080p)
+https://dg37ei3o66x3s.cloudfront.net/OutTV_US.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",MyTime Movie Network Germany (1080p)
+https://appletree-mytimemoviegerman-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MyTimeMovieNetwork.es@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies HD",MyTime movie network Spain (1080p)
+https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ETVCinema.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s143026_ld_h15_aa.png?lock=720x540" group-title="Movies HD",ETV Cinema HD (1080p)
+https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264_cloud_in/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",MyTime Movie Network France (1080p)
+https://mytimemoviefrance-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PBSTravel.us@SD" tvg-logo="https://i.imgur.com/A6GXhta.png" group-title="Travel HD",PBS Travel (1080p)
+https://d3hqevbyoxtkoi.cloudfront.net/PBS_Travel.m3u8
+#EXTINF:-1 tvg-id="MyTimeMovieNetworkEast.us@SD" tvg-logo="https://i.imgur.com/HYgxPVQ.png" group-title="Movies HD",MyTime Movie Network (1080p)
+https://appletree-mytimeau-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Sports First (1080p)
+https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8
+#EXTINF:-1 tvg-id="WillowSports.us@HD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" group-title="Sports HD",Willow Sports (1080p)
+https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Mytime Movies (1080p)
+https://mytimefrance-rakuten-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCSportsNOW.us@SD" tvg-logo="https://i.imgur.com/EzNf2Yx.png" group-title="Sports HD",NBC Sports NOW (1080p)
+https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
 #EXTINF:-1 tvg-id="Unbeaten.us@SD" tvg-logo="https://i.imgur.com/LmkNt3v.png" group-title="Sports HD",Unbeaten Sports Channel (1080p)
 https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8
+#EXTINF:-1 tvg-id="MBCFM.ae@SD" tvg-logo="https://i.imgur.com/lF8UxvR.png" group-title="Premium HD",MBC FM (1080p)
+https://dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/index.m3u8
+#EXTINF:-1 tvg-id="WillowSports.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" group-title="Sports HD",Willow Sports (1080p)
+https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
 #EXTINF:-1 tvg-id="DreamTV.mn@SD" tvg-logo="https://i.imgur.com/YPbvzgV.png" group-title="Music HD",DreamTV (1080p)
 https://xykt-fix.github.io/play/a02j/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Roku Sports Channel (1080p)
 https://d3ialx0k0mla2a.cloudfront.net/Roku_Sports_Channel.m3u8
-#EXTINF:-1 tvg-id="TraceSportStars.fr@HD" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="Sports HD",Trace Sport Stars (Australia) (1080p)
-https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="WomensSportsNetwork.us@SD" tvg-logo="https://i.imgur.com/rhIwUcQ.png" group-title="Sports HD",Women's Sports Network (1080p)
 https://d39accvx65hq9o.cloudfront.net/Womens_Sports_Network.m3u8
-#EXTINF:-1 tvg-id="WillowSports.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" group-title="Sports HD",Willow Sports (1080p)
-https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Shooting Sports Life (1080p)
-https://linear-1312.frequency.stream/dist/stirr/1312/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="alphaCinema.ru@HD" tvg-logo="https://i.imgur.com/146OgfU.png" group-title="Movies HD",alpha Cinema (1080p)
-https://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
+#EXTINF:-1 tvg-id="KTVSport.kw@SD" tvg-logo="https://i.imgur.com/R1hGX1d.png" group-title="Sports HD",KTV Sport (1080p)
+https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="TastemadeTravel.us@SD" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Travel HD",Tastemade Travel (1080p)
 https://d6ef3usc6d9cl.cloudfront.net/Tastemade_Travel.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Speed Sport 1 (1080p)
-https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Yahoo! Sports Network (1080p)
-https://d7vulbd7rxo7j.cloudfront.net/Yahoo_Sports_Network.m3u8
-#EXTINF:-1 tvg-id="ETVCinema.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s143026_ld_h15_aa.png?lock=720x540" group-title="Movies HD",ETV Cinema HD (1080p)
-https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264_cloud_in/index.m3u8
-#EXTINF:-1 tvg-id="WorldofFreesports.de@SD" tvg-logo="https://i.imgur.com/lta5Mog.png" group-title="Sports HD",World of Freesports (1080p)
-https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",NEW KMOVIES (1080p)
-https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=USAJ30000122O&channel_id=newid_342&tp=samsung_tvplus
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Rakuten TV Romance Movies Germany (1080p)
-https://romance-rakuten-tv-de.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6475/master.m3u8
 #EXTINF:-1 tvg-id="YoMTV.us@SD" tvg-logo="https://i.imgur.com/hzNXDdY.png" group-title="Music HD",Yo! MTV (1080p)
 https://jmp2.uk/plu-654102ed770cf1000866c307.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",NEW KMOVIES (1080p)
+https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=USAJ30000122O&channel_id=newid_342&tp=samsung_tvplus
+#EXTINF:-1 tvg-id="TraceSportStars.fr@HD" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="Sports HD",Trace Sport Stars (Australia) (1080p)
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MoviesAction.sa@SD" tvg-logo="https://i.imgur.com/NIVhISa.png" group-title="Movies HD",Movies Action (1080p)
 https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Rakuten TV Romance Movies Finland (1080p)
-https://romance-rakuten-tv-fi.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6744/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Yahoo! Sports Network (1080p)
+https://d7vulbd7rxo7j.cloudfront.net/Yahoo_Sports_Network.m3u8
 #EXTINF:-1 tvg-id="MNBSport.mn@SD" tvg-logo="https://i.imgur.com/z854PC3.png" group-title="Sports HD",MNB Sport (1080p)
 https://live.mnb.mn/hls/mnb_sport.stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Shooting Sports Life (1080p)
+https://linear-1312.frequency.stream/dist/stirr/1312/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sports HD",Speed Sport 1 (1080p)
+https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="MoviesThriller.sa@SD" tvg-logo="https://i.imgur.com/JWihdcl.png" group-title="Movies HD",Movies Thriller (1080p)
 https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8
 #EXTINF:-1 tvg-id="NEWKMOVIES.us@SD" tvg-logo="https://i.imgur.com/wCgirjc.png" group-title="Movies HD",NEW KMOVIES (1080p)
 https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB1700007PK&channel_id=newid_343&tp=samsung_tvplus
-#EXTINF:-1 tvg-id="TopMoviesPolska.pl@SD" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" group-title="Movies HD",Top Movies Polska (1080p)
-https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Rakuten TV Asian Cinema Italy (1080p)
-https://asian-cinema-rakuten-tv-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6431/master.m3u8
-#EXTINF:-1 tvg-id="Sportitalia.it@SD" tvg-logo="https://i.imgur.com/0CJGGgd.png" group-title="Sports HD",Sportitalia (1080p)
-https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="SUMtvEnglish.us@SD" tvg-logo="https://i.imgur.com/hp1rJjX.png" group-title="Music HD",SUMtv English (1080p)
+https://bozztv.com/uni10rtmp/ssstv1-cdn/smil:ssstv1web.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SUMtvLatino.us@SD" tvg-logo="https://i.imgur.com/ZObFN8Z.png" group-title="Music HD",SUMtv Latino (1080p)
+https://bozztv.com/uni10rtmp/ssstv2-cdn/smil:ssstv2web.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MoreThanSportsTV.de@SD" tvg-logo="https://i.imgur.com/SLrjImc.png" group-title="Sports HD",More Than Sports TV (1080p)
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+#EXTINF:-1 tvg-id="WorldofFreesports.de@SD" tvg-logo="https://i.imgur.com/lta5Mog.png" group-title="Sports HD",World of Freesports (1080p)
+https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Rakuten TV Romance Movies Finland (1080p)
+https://romance-rakuten-tv-fi.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6744/master.m3u8
+#EXTINF:-1 tvg-id="TopMoviesPolska.pl@SD" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" group-title="Movies HD",Top Movies Polska (1080p)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Rakuten TV Romance Movies Germany (1080p)
+https://romance-rakuten-tv-de.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6475/master.m3u8
+#EXTINF:-1 tvg-id="Sportitalia.it@SD" tvg-logo="https://i.imgur.com/0CJGGgd.png" group-title="Sports HD",Sportitalia (1080p)
+https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies HD",Rakuten TV Asian Cinema Italy (1080p)
+https://asian-cinema-rakuten-tv-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6431/master.m3u8
 
 ## --- Israel ---
-#EXTINF:-1 tvg-id="il_5radio" tvg-logo="Sport5.png" group-title="Israel TV",ספורט 5 אתר
-https://rgelive.akamaized.net/hls/live/2043095/live3/playlist.m3u8
-#EXTINF:-1 tvg-id="il_" tvg-logo="kabbalah.jpg" group-title="Israel TV",קבלה - רוסית
-https://edge2.il.kab.tv/live/tv66-rus-high/playlist.m3u8
-#EXTINF:-1 tvg-id="il_9" tvg-logo="9tv.png" group-title="Israel TV",ערוץ 9
-https://contact.gostreaming.tv/Con-11/index.m3u8
-#EXTINF:-1 tvg-id="il_" tvg-logo="musayof.jpg" group-title="Israel TV",מוסיוף
-http://wowza.media-line.co.il/Musayof-Live/livestream.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="il_66" tvg-logo="kabbalah.jpg" group-title="Israel TV",קבלה 66
-https://edge2.il.kab.tv/live/tv66-heb-high/playlist.m3u8
-#EXTINF:-1 tvg-id="il_99" tvg-logo="knesset.png" group-title="Israel TV",כנסת 99
-https://kneset.gostreaming.tv/p2-kneset/_definst_/myStream/index.m3u8
 #EXTINF:-1 tvg-id="il_99" tvg-logo="knesset.png" group-title="Israel TV",כנסת 99 - לקויי שמיעה
 https://kneset.gostreaming.tv/p2-Accessibility/_definst_/myStream/index.m3u8
-#EXTINF:-1 tvg-id="il_90fm" tvg-logo="90fm.jpg" group-title="Israel Radio",90FM רדיו תשעים
-https://cdn.cybercdn.live/Emtza_Haderech/Live_Audio/icecast.audio
+#EXTINF:-1 tvg-id="il_99" tvg-logo="knesset.png" group-title="Israel TV",כנסת 99
+https://kneset.gostreaming.tv/p2-kneset/_definst_/myStream/index.m3u8
+#EXTINF:-1 tvg-id="il_9" tvg-logo="9tv.png" group-title="Israel TV",ערוץ 9
+https://contact.gostreaming.tv/Con-11/index.m3u8
+#EXTINF:-1 tvg-id="il_" tvg-logo="kabbalah.jpg" group-title="Israel TV",קבלה - רוסית
+https://edge2.il.kab.tv/live/tv66-rus-high/playlist.m3u8
+#EXTINF:-1 tvg-id="il_66" tvg-logo="kabbalah.jpg" group-title="Israel TV",קבלה 66
+https://edge2.il.kab.tv/live/tv66-heb-high/playlist.m3u8
 #EXTINF:-1 tvg-id="il_100fm" tvg-logo="100fm.jpg" group-title="Israel TV",100FM רדיוס
 https://cdn.cybercdn.live/Radios_100FM/Video/playlist.m3u8
+#EXTINF:-1 tvg-id="il_5radio" tvg-logo="Sport5.png" group-title="Israel TV",ספורט 5 אתר
+https://rgelive.akamaized.net/hls/live/2043095/live3/playlist.m3u8
 #EXTINF:-1 tvg-id="il_91fm" tvg-logo="91fm.jpg" group-title="Israel Radio",91FM רדיו לב המדינה
 https://cdn.cybercdn.live/Lev_Hamedina/Audio/icecast.audio
-#EXTINF:-1 tvg-id="il_97fm" tvg-logo="97fm.jpg" group-title="Israel Radio",97FM רדיו דרום
-https://cdn.cybercdn.live/Darom_97FM/Live/icecast.audio
-#EXTINF:-1 tvg-id="il_100fm" tvg-logo="100fm.jpg" group-title="Israel Radio",100FM רדיוס
-https://cdn.cybercdn.live/Radios_100FM/Audio/icecast.audio
+#EXTINF:-1 tvg-id="il_90fm" tvg-logo="90fm.jpg" group-title="Israel Radio",90FM רדיו תשעים
+https://cdn.cybercdn.live/Emtza_Haderech/Live_Audio/icecast.audio
+#EXTINF:-1 tvg-id="il_" tvg-logo="musayof.jpg" group-title="Israel TV",מוסיוף
+http://wowza.media-line.co.il/Musayof-Live/livestream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="il_101fm" tvg-logo="101fm.png" group-title="Israel Radio",101FM רדיו ירושלים
 https://radio.streamgates.net/stream/101fm
+#EXTINF:-1 tvg-id="il_100fm" tvg-logo="100fm.jpg" group-title="Israel Radio",100FM רדיוס
+https://cdn.cybercdn.live/Radios_100FM/Audio/icecast.audio
+#EXTINF:-1 tvg-id="il_97fm" tvg-logo="97fm.jpg" group-title="Israel Radio",97FM רדיו דרום
+https://cdn.cybercdn.live/Darom_97FM/Live/icecast.audio
 #EXTINF:-1 tvg-id="il_102fmEilat" tvg-logo="102fmEilat.jpg" group-title="Israel Radio",102FM רדיו קול הים האדום
 https://cdn.cybercdn.live/Eilat_Radio/Live/icecast.audio
-#EXTINF:-1 tvg-id="il_99fm" tvg-logo="99fm.png" group-title="Israel Radio",ECO 99FM
-http://eco-live.mediacast.co.il/99fm_aac
-#EXTINF:-1 tvg-id="il_5radio" tvg-logo="Sport5.png" group-title="Israel Radio",ספורט 5 אתר
-https://rgelive.akamaized.net/hls/live/2043150/radio5/playlist.m3u8
-#EXTINF:-1 tvg-id="il_13" tvg-logo="13.jpg" group-title="Israel TV",רשת 13 - גיבוי 2
-https://d2xg1g9o5vns8m.cloudfront.net/out/v1/0855d703f7d5436fae6a9c7ce8ca5075/index.m3u8
 #EXTINF:-1 tvg-id="il_14" tvg-logo="14tv.png" group-title="Israel TV",עכשיו 14
 https://ch14channel14.encoders.immergo.tv/app/2/streamPlaylist.m3u8
-#EXTINF:-1 tvg-id="il_14" tvg-logo="14tv.png" group-title="Israel TV",עכשיו 14 - גיבוי 2
-https://r.il.cdn-redge.media/livehls/oil/ch14/live/ch14/live.livx/playlist.m3u8?bitrate=5692000&audioId=1&videoId=0
+#EXTINF:-1 tvg-id="il_99fm" tvg-logo="99fm.png" group-title="Israel Radio",ECO 99FM
+http://eco-live.mediacast.co.il/99fm_aac
+#EXTINF:-1 tvg-id="il_13" tvg-logo="13.jpg" group-title="Israel TV",רשת 13 - גיבוי 2
+https://d2xg1g9o5vns8m.cloudfront.net/out/v1/0855d703f7d5436fae6a9c7ce8ca5075/index.m3u8
 #EXTINF:-1 tvg-id="il_kolbarama" tvg-logo="kolbarama.jpg" group-title="Israel Radio",קול ברמה
 https://cdn.cybercdn.live/Kol_Barama/Live_Audio/icecast.audio
 #EXTINF:-1 tvg-id="il_" tvg-logo="kolplay.png" group-title="Israel Radio",קול Play
 https://cdn.cybercdn.live/Kol_Barama/Music/icecast.audio
+#EXTINF:-1 tvg-id="il_13nofesh" tvg-logo="13nofesh.jpg" group-title="Israel TV",ערוץ הנופש
+https://d1yd8hohnldm33.cloudfront.net/out/v1/19dee23c2cc24f689bd4e1288661ee0c/index.m3u8
+#EXTINF:-1 tvg-id="il_5radio" tvg-logo="Sport5.png" group-title="Israel Radio",ספורט 5 אתר
+https://rgelive.akamaized.net/hls/live/2043150/radio5/playlist.m3u8
 #EXTINF:-1 tvg-id="il_gly" tvg-logo="gly.jpg" group-title="Israel Radio",גלי ישראל
 https://cdn.cybercdn.live/Galei_Israel/Live/icecast.audio
 #EXTINF:-1 tvg-id="il_13reality" tvg-logo="13reality.jpg" group-title="Israel TV",ערוץ הריאליטי
@@ -569,43 +401,31 @@ https://d2dffl3588mvfk.cloudfront.net/out/v1/d8e15050ca4148aab0ee387a5e2eb46b/in
 https://cdna.streamgates.net/TheBest/live/playlist.m3u8
 #EXTINF:-1 tvg-id="il_kolhay" tvg-logo="kolhay.jpg" group-title="Israel Radio",93FM קול חי
 https://media2.93fm.co.il/live-new
-#EXTINF:-1 tvg-id="il_13nofesh" tvg-logo="13nofesh.jpg" group-title="Israel TV",ערוץ הנופש
-https://d1yd8hohnldm33.cloudfront.net/out/v1/19dee23c2cc24f689bd4e1288661ee0c/index.m3u8
 #EXTINF:-1 tvg-id="il_" tvg-logo="kolhaymusic.jpg" group-title="Israel Radio",קול חי מיוזיק
 https://media2.93fm.co.il/livemusic
-#EXTINF:-1 tvg-id="il_13" tvg-logo="13.jpg" group-title="Israel TV",רשת 13 - גיבוי
-https://d18b0e6mopany4.cloudfront.net/out/v1/2f2bc414a3db4698a8e94b89eaf2da2a/index.m3u8
 #EXTINF:-1 tvg-id="il_88" tvg-logo="88.png" group-title="Israel Radio",כאן 88
 https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_88/live.livx
-#EXTINF:-1 tvg-id="il_13" tvg-logo="13.jpg" group-title="Israel TV",רשת 13
-https://dsk76kvc9kie6.cloudfront.net/media/87f59c77-03f6-4bad-a648-897e095e7360/mainManifest.m3u8
-#EXTINF:-1 tvg-id="il_13comedy" tvg-logo="13comedy.jpg" group-title="Israel TV",13 ערוץ הקומדיות
-https://d15ds134q59udk.cloudfront.net/out/v1/fbba879221d045598540ee783b140fe2/index.m3u8
-#EXTINF:-1 tvg-id="il_gimel" tvg-logo="gimel.png" group-title="Israel Radio",כאן גימל
-https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_gimel/live.livx
-#EXTINF:-1 tvg-id="il_music" tvg-logo="music.png" group-title="Israel Radio",כאן קול המוסיקה
-https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_kol_hamuzika/live.livx
-#EXTINF:-1 tvg-id="il_bet" tvg-logo="bet.png" group-title="Israel Radio",כאן ב
-https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_reshet_bet/live.livx
-#EXTINF:-1 tvg-id="il_makan" tvg-logo="makan.png" group-title="Israel Radio",כאן مكان
-https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/radio_makan/live.livx
-#EXTINF:-1 tvg-id="il_culture" tvg-logo="culture.png" group-title="Israel Radio",כאן תרבות
-https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_tarbut/live.livx
-#EXTINF:-1 tvg-id="il_reka" tvg-logo="reka.png" group-title="Israel Radio",כאן Reka
-https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_reka/live.livx
-#EXTINF:-1 tvg-id="il_moreshet" tvg-logo="moreshet.png" group-title="Israel Radio",כאן מורשת
-https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_moreshet/live.livx
-#EXTINF:-1 tvg-id="il_" tvg-logo="noshmim.jpg" group-title="Israel Radio",רדיו נושמים מזרחית
-https://rs.mizrahit.fm:7777
-#EXTINF:-1 tvg-id="il_" tvg-logo="fm95.5.png" group-title="Israel Radio",95.5FM רדיו
-https://995.livecdn.biz/995fm
 #EXTINF:-1 tvg-id="il_1075fm" tvg-logo="1075fm.jpg" group-title="Israel Radio",107.5FM רדיו חיפה
 https://1075.livecdn.biz/radiohaifa
-#EXTINF:-1 tvg-id="il_10" tvg-logo="10tv.png" group-title="Israel TV",כלכלה 10
-https://r.il.cdn-redge.media/livehls/oil/calcala-live/live/channel10/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="il_11" tvg-logo="kan.jpg" group-title="Israel TV",כאן 11
-https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="il_23" tvg-logo="23tv.jpg" group-title="Israel TV",כאן חינוכית 23
-https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/kan_edu/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="il_11" tvg-logo="kan.jpg" group-title="Israel TV",כאן 11 - לקויי שמיעה
-https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/kan11_subs/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="il_13" tvg-logo="13.jpg" group-title="Israel TV",רשת 13
+https://dsk76kvc9kie6.cloudfront.net/media/87f59c77-03f6-4bad-a648-897e095e7360/mainManifest.m3u8
+#EXTINF:-1 tvg-id="il_14" tvg-logo="14tv.png" group-title="Israel TV",עכשיו 14 - גיבוי 2
+https://r.il.cdn-redge.media/livehls/oil/ch14/live/ch14/live.livx/playlist.m3u8?bitrate=5692000&audioId=1&videoId=0
+#EXTINF:-1 tvg-id="il_13" tvg-logo="13.jpg" group-title="Israel TV",רשת 13 - גיבוי
+https://d18b0e6mopany4.cloudfront.net/out/v1/2f2bc414a3db4698a8e94b89eaf2da2a/index.m3u8
+#EXTINF:-1 tvg-id="il_13comedy" tvg-logo="13comedy.jpg" group-title="Israel TV",13 ערוץ הקומדיות
+https://d15ds134q59udk.cloudfront.net/out/v1/fbba879221d045598540ee783b140fe2/index.m3u8
+#EXTINF:-1 tvg-id="il_" tvg-logo="fm95.5.png" group-title="Israel Radio",95.5FM רדיו
+https://995.livecdn.biz/995fm
+#EXTINF:-1 tvg-id="il_" tvg-logo="noshmim.jpg" group-title="Israel Radio",רדיו נושמים מזרחית
+https://rs.mizrahit.fm:7777
+#EXTINF:-1 tvg-id="il_reka" tvg-logo="reka.png" group-title="Israel Radio",כאן Reka
+https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_reka/live.livx
+#EXTINF:-1 tvg-id="il_culture" tvg-logo="culture.png" group-title="Israel Radio",כאן תרבות
+https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_tarbut/live.livx
+#EXTINF:-1 tvg-id="il_moreshet" tvg-logo="moreshet.png" group-title="Israel Radio",כאן מורשת
+https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_moreshet/live.livx
+#EXTINF:-1 tvg-id="il_music" tvg-logo="music.png" group-title="Israel Radio",כאן קול המוסיקה
+https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_kol_hamuzika/live.livx
+#EXTINF:-1 tvg-id="il_gimel" tvg-logo="gimel.png" group-title="Israel Radio",כאן גימל
+https://r.il.cdn-redge.media/livedash/oil/kancdn-live/live/radio/kan_gimel/live.livx
